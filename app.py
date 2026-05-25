@@ -55,6 +55,16 @@ section[data-testid="stSidebar"] {
     transform: none !important;
     visibility: visible !important;
 }
+
+div[data-testid="stPlotlyChart"],
+div[data-testid="stDataFrame"] {
+    background-color: #FFFFFF !important;
+}
+
+h2, h3, .stSubheader {
+    color: #1A1D23 !important;
+}
+
 /* ── Header principal ── */
 .dashboard-header {
     margin: -80px 0 0 0;
@@ -421,6 +431,10 @@ fig_estatus.add_trace(go.Bar(
 ))
 
 fig_estatus.update_layout(
+
+    paper_bgcolor='#FFFFFF',
+    plot_bgcolor='#FFFFFF',
+    font=dict(color='#1A1D23'),
 
     barmode='stack',
 
