@@ -677,6 +677,10 @@ with col_pareto:
 
         fig_pareto.update_layout(
 
+            paper_bgcolor='#FFFFFF',
+            plot_bgcolor='#FFFFFF',
+            font=dict(color='#1A1D23'),
+            
             height=500,
 
             xaxis=dict(
@@ -793,6 +797,10 @@ with col_rendimiento:
     x_max = rendimiento_tela[['Rendimiento_Taller', 'Rendimiento_Proveedor']].max().max()
 
     fig_rend.update_layout(
+        paper_bgcolor='#FFFFFF',
+        plot_bgcolor='#FFFFFF',
+        font=dict(color='#1A1D23'),
+        
         height=500,
         xaxis=dict(
             title='Rendimiento (m/kg)',
