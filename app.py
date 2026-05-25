@@ -938,7 +938,7 @@ ranking['Tasa_Defectos_%'] = (
     ranking['Con_Defectos'] / ranking['Total_Rollos'] * 100
 ).round(1)
 
-ranking['Tasa_Aprobación_%'] = (
+ranking['Tasa_Sin_Defecto_%'] = (
     ranking['Sin_Defecto'] / ranking['Total_Rollos'] * 100
 ).round(1)
 
