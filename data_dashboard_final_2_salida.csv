@@ -1,0 +1,830 @@
+﻿ID_Recepcion;ID_Rollo;Fecha_Recepción;Fecha_ISO;Mes;Tipo_de_tela;Color;Modalidad_Venta;Peso_etiqueta;Metros_etiquetas;Metros_taller;Peso_Plegadora;Rendimiento_teorico_proveedor;Rendimiento_Taller;Delta_Rend_mkg;Pct_Delta_Rend;Delta_Metros;Delta_Kg;Estatus;Tipo_Defecto;Frecuencia;Tiene_Defecto;N_Tipos_Defecto;Severidad;Severidad_label;Flag_Idos;Flag_Manchas;Flag_Huecos;Flag_Marcas_Agua;Flag_Sucio;Flag_Empates;Metros_No_Aprov;Metros_Aprov;Obs_N_Posiciones
+001;1;2025-06-17;2025-06-17;2025-06;Tulum;Rojo;Por Kg;8.0;0.0;21.51;8.25;2.69;2.61;-0.08;-2.97;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;21.51;0
+002;2;2025-06-17;2025-06-17;2025-06;Tulum;Rojo;Por Kg;7.75;0.0;21.65;8.1;2.79;2.67;-0.12;-4.3;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;21.65;0
+003;3;2025-06-17;2025-06-17;2025-06;Tulum;Rojo;Por Kg;19.25;0.0;51.31;19.9;2.67;2.58;-0.09;-3.37;;0.65;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.31;0
+004;1;2025-06-17;2025-06-17;2025-06;Tulum;Verde Lago;Por Kg;8.8;0.0;25.44;8.95;2.89;2.84;-0.05;-1.73;;0.15;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;25.44;0
+005;2;2025-06-17;2025-06-17;2025-06;Tulum;Verde Lago;Por Kg;18.45;0.0;55.88;19.2;3.03;2.91;-0.12;-3.96;;0.75;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.88;0
+006;3;2025-06-17;2025-06-17;2025-06;Tulum;Verde Lago;Por Kg;7.75;0.0;22.3;7.8;2.88;2.86;-0.02;-0.69;;0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;22.3;0
+007;1;2025-06-17;2025-06-17;2025-06;Tulum;Azul Marino;Por Kg;11.95;0.0;31.9;12.2;2.67;2.61;-0.06;-2.25;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;31.9;0
+008;2;2025-06-17;2025-06-17;2025-06;Tulum;Azul Marino;Por Kg;18.95;0.0;51.68;23.95;2.73;2.16;-0.57;-20.88;;5.0;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.68;0
+009;3;2025-06-17;2025-06-17;2025-06;Tulum;Azul Marino;Por Kg;19.25;0.0;53.5;19.9;2.78;2.69;-0.09;-3.24;;0.65;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;53.5;0
+010;4;2025-06-17;2025-06-17;2025-06;Tulum;Azul Marino;Por Kg;19.65;0.0;52.34;19.95;2.66;2.62;-0.04;-1.5;;0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;52.34;0
+011;1;2025-06-17;2025-06-17;2025-06;Tulum;Gris;Por Kg;13.65;0.0;0.0;14.15;0.0;0.0;0.0;;;0.5;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;0.0;0
+012;2;2025-06-17;2025-06-17;2025-06;Tulum;Gris;Por Kg;19.15;0.0;53.53;18.95;2.8;2.82;0.02;0.71;;-0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;53.53;0
+013;3;2025-06-17;2025-06-17;2025-06;Tulum;Gris;Por Kg;19.15;0.0;51.93;18.95;2.71;2.74;0.03;1.11;;-0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.93;0
+014;4;2025-06-17;2025-06-17;2025-06;Tulum;Gris;Por Kg;18.25;0.0;50.51;18.1;2.77;2.79;0.02;0.72;;-0.15;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;50.51;0
+015;1;2025-06-17;2025-06-17;2025-06;Corriente;Marrón;Por Metro;0.0;61.0;60.83;23.9;2.55;2.55;;;-0.17;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;60.83;0
+016;2;2025-06-17;2025-06-17;2025-06;Corriente;Marrón;Por Metro;0.0;55.0;52.07;21.6;2.55;2.41;;;-2.93;;Aprobado;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;52.07;1
+017;3;2025-06-17;2025-06-17;2025-06;Corriente;Marrón;Por Metro;0.0;60.0;60.0;23.0;2.61;2.61;;;0.0;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;60.0;0
+018;4;2025-06-17;2025-06-17;2025-06;Corriente;Marrón;Por Metro;0.0;56.0;54.64;21.05;2.66;2.6;;;-1.36;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.64;0
+019;5;2025-06-17;2025-06-17;2025-06;Corriente;Marrón;Por Metro;0.0;54.0;50.61;20.8;2.6;2.43;;;-3.39;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;50.61;0
+020;6;2025-06-17;2025-06-17;2025-06;Corriente;Marrón;Por Metro;0.0;28.0;28.1;11.46;2.44;2.45;;;0.1;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;28.1;0
+021;7;2025-06-17;2025-06-17;2025-06;Corriente;Marrón;Por Metro;0.0;59.0;58.07;23.75;2.48;2.45;;;-0.93;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.07;0
+022;8;2025-06-17;2025-06-17;2025-06;Corriente;Marrón;Por Metro;0.0;60.0;58.77;23.75;2.53;2.47;;;-1.23;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.77;0
+023;1;2025-06-24;2025-06-24;2025-06;Bio Flow;Blanco;Por Kg;15.04;0.0;96.65;14.75;6.43;6.55;0.12;1.87;;-0.29;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;96.65;0
+024;2;2025-06-24;2025-06-24;2025-06;Bio Flow;Blanco;Por Kg;15.24;0.0;104.07;15.0;6.83;6.94;0.11;1.61;;-0.24;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;104.07;0
+025;3;2025-06-24;2025-06-24;2025-06;Bio Flow;Blanco;Por Kg;15.42;0.0;98.52;15.1;6.39;6.52;0.13;2.03;;-0.32;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;98.52;0
+026;4;2025-06-24;2025-06-24;2025-06;Bio Flow;Blanco;Por Kg;14.45;0.0;97.58;14.0;6.75;6.97;0.22;3.26;;-0.45;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;97.58;0
+027;5;2025-06-24;2025-06-24;2025-06;Bio Flow;Blanco;Por Kg;18.72;0.0;122.7;18.55;6.55;6.61;0.06;0.92;;-0.17;Aprobado con Desviación;Idos, Manchas;Puntual;1;2;3;Puntual combinado;1;1;0;0;0;0;0.0;122.7;0
+028;6;2025-06-24;2025-06-24;2025-06;Bio Flow;Blanco;Por Kg;15.54;0.0;99.8;15.25;6.42;6.54;0.12;1.87;;-0.29;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;99.8;0
+029;1;2025-06-24;2025-06-24;2025-06;Bio Flow;Gris;Por Kg;15.18;0.0;94.94;14.9;6.25;6.37;0.12;1.92;;-0.28;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;94.94;0
+030;2;2025-06-24;2025-06-24;2025-06;Bio Flow;Gris;Por Kg;14.62;0.0;93.63;15.2;6.4;6.16;-0.24;-3.75;;0.58;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;93.63;0
+031;3;2025-06-24;2025-06-24;2025-06;Bio Flow;Gris;Por Kg;15.84;0.0;95.16;15.9;6.01;5.98;-0.03;-0.5;;0.06;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;95.16;0
+032;4;2025-06-24;2025-06-24;2025-06;Bio Flow;Gris;Por Kg;15.54;0.0;96.28;15.4;6.2;6.25;0.05;0.81;;-0.14;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;96.28;0
+033;5;2025-06-24;2025-06-24;2025-06;Bio Flow;Gris;Por Kg;15.5;0.0;96.04;15.05;6.2;6.38;0.18;2.9;;-0.45;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;96.04;0
+034;6;2025-06-24;2025-06-24;2025-06;Bio Flow;Gris;Por Kg;15.36;0.0;99.31;14.9;6.47;6.67;0.2;3.09;;-0.46;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;99.31;0
+035;1;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;10.8;0.0;63.77;10.45;5.9;6.1;0.2;3.39;;-0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;63.77;0
+036;2;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;14.52;0.0;82.95;14.2;5.71;5.84;0.13;2.28;;-0.32;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;82.95;0
+037;3;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;10.74;0.0;68.7;10.3;6.4;6.67;0.27;4.22;;-0.44;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;68.7;0
+038;4;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;13.14;0.0;77.34;12.85;5.89;6.02;0.13;2.21;;-0.29;Aprobado;Idos, Huecos;Puntual;1;2;3;Puntual combinado;1;0;1;0;0;0;0.0;77.34;0
+039;5;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;16.24;0.0;96.33;16.0;5.93;6.02;0.09;1.52;;-0.24;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;96.33;0
+040;6;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;15.38;0.0;87.81;15.0;5.71;5.85;0.14;2.45;;-0.38;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;87.81;0
+041;7;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;12.52;0.0;82.57;12.05;6.6;6.85;0.25;3.79;;-0.47;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;82.57;0
+042;8;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;10.16;0.0;64.63;9.75;6.36;6.63;0.27;4.25;;-0.41;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;64.63;0
+043;9;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;15.38;0.0;90.0;15.0;5.85;6.0;0.15;2.56;;-0.38;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;90.0;0
+044;10;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;14.6;0.0;84.81;14.15;5.81;5.99;0.18;3.1;;-0.45;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;84.81;0
+045;11;2025-06-24;2025-06-24;2025-06;Bio Flow;Negro;Por Kg;13.28;0.0;79.52;12.85;5.99;6.19;0.2;3.34;;-0.43;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;79.52;0
+046;1;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;14.95;0.0;72.25;14.4;4.83;5.02;0.19;3.93;;-0.55;Aprobado con Desviación;Idos, Manchas, Huecos;Puntual;1;3;3;Puntual combinado;1;1;1;0;0;0;0.0;72.25;0
+047;2;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;14.14;0.0;56.98;13.6;4.03;4.19;0.16;3.97;;-0.54;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.98;0
+048;3;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;15.02;0.0;72.63;14.55;4.84;4.99;0.15;3.1;;-0.47;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;72.63;0
+049;4;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;14.68;0.0;70.03;14.15;4.77;4.95;0.18;3.77;;-0.53;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;70.03;0
+050;5;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;15.53;0.0;77.6;14.95;5.0;5.19;0.19;3.8;;-0.58;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;77.6;0
+051;6;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;15.19;0.0;77.63;14.7;5.11;5.28;0.17;3.33;;-0.49;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;77.63;0
+052;7;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;15.06;0.0;72.85;14.6;4.84;4.99;0.15;3.1;;-0.46;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;72.85;0
+053;8;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;15.2;0.0;73.11;14.7;4.81;4.97;0.16;3.33;;-0.5;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;73.11;0
+054;9;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;15.63;0.0;78.54;15.05;5.02;5.22;0.2;3.98;;-0.58;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;78.54;0
+055;10;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;15.53;0.0;75.09;14.95;4.84;5.02;0.18;3.72;;-0.58;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;75.09;0
+056;11;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;15.22;0.0;74.43;14.7;4.89;5.06;0.17;3.48;;-0.52;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;74.43;0
+057;12;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;14.89;0.0;71.41;14.45;4.8;4.94;0.14;2.92;;-0.44;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;71.41;0
+058;13;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;15.0;0.0;71.34;14.45;4.76;4.94;0.18;3.78;;-0.55;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;71.34;0
+059;14;2025-06-24;2025-06-24;2025-06;City New;Blanco;Por Kg;13.44;0.0;66.09;11.8;4.92;5.6;0.68;13.82;;-1.64;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;66.09;0
+060;1;2025-07-04;2025-07-04;2025-07;Texflex;Negro;Por Kg;15.16;0.0;47.31;14.9;3.12;3.18;0.06;1.92;;-0.26;Aprobado;Marcas de Agua;Frecuente;1;1;2;Frecuente;0;0;0;1;0;0;0.0;47.31;0
+061;2;2025-07-04;2025-07-04;2025-07;Texflex;Negro;Por Kg;15.44;0.0;48.3;15.25;3.13;3.17;0.04;1.28;;-0.19;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;48.3;0
+062;3;2025-07-04;2025-07-04;2025-07;Texflex;Negro;Por Kg;15.42;0.0;48.37;15.2;3.14;3.18;0.04;1.27;;-0.22;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;48.37;0
+063;1;2025-07-04;2025-07-04;2025-07;Texflex;Azul Marino;Por Kg;18.9;0.0;57.17;18.6;3.02;3.07;0.05;1.66;;-0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.17;0
+064;1;2025-07-04;2025-07-04;2025-07;Texflex;Blanco;Por Kg;18.94;0.0;55.13;18.75;2.91;2.94;0.03;1.03;;-0.19;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.13;0
+065;2;2025-07-04;2025-07-04;2025-07;Texflex;Blanco;Por Kg;18.76;0.0;57.39;18.6;3.06;3.09;0.03;0.98;;-0.16;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.39;0
+066;1;2025-07-04;2025-07-04;2025-07;Texflex;Vinotinto;Por Kg;15.02;0.0;49.07;14.9;3.27;3.29;0.02;0.61;;-0.12;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;49.07;0
+067;2;2025-07-04;2025-07-04;2025-07;Texflex;Vinotinto;Por Kg;15.04;0.0;49.05;14.9;3.26;3.29;0.03;0.92;;-0.14;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;49.05;0
+068;1;2025-07-14;2025-07-14;2025-07;Bahía;Negro;Por Metro;0.0;50.4;47.84;16.7;3.02;2.86;;;-2.56;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;47.84;0
+069;2;2025-07-14;2025-07-14;2025-07;Bahía;Negro;Por Metro;0.0;50.0;47.86;16.9;2.96;2.83;;;-2.14;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;47.86;0
+070;3;2025-07-14;2025-07-14;2025-07;Bahía;Negro;Por Metro;0.0;50.0;47.98;16.4;3.05;2.93;;;-2.02;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;47.98;0
+071;4;2025-07-14;2025-07-14;2025-07;Bahía;Negro;Por Metro;0.0;50.0;48.5;17.25;2.9;2.81;;;-1.5;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;48.5;0
+072;1;2025-07-14;2025-07-14;2025-07;Bahía;Morado;Por Metro;0.0;59.8;58.3;20.45;2.92;2.85;;;-1.5;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.3;0
+073;1;2025-07-14;2025-07-14;2025-07;Bahía;Verde Militar;Por Metro;0.0;44.0;43.66;15.85;2.78;2.75;;;-0.34;;Aprobado con Desviación;Marcas de Agua;Frecuente;1;1;2;Frecuente;0;0;0;1;0;0;0.0;43.66;0
+074;2;2025-07-14;2025-07-14;2025-07;Bahía;Verde Militar;Por Metro;0.0;42.0;40.4;14.75;2.85;2.74;;;-1.6;;Aprobado con Desviación;Marcas de Agua;Frecuente;1;1;2;Frecuente;0;0;0;1;0;0;0.0;40.4;0
+075;1;2025-07-14;2025-07-14;2025-07;Bahía;Blanco;Sin referencia;0.0;0.0;31.3;11.0;0.0;2.85;;;;;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;31.3;0
+076;2;2025-07-14;2025-07-14;2025-07;Bahía;Blanco;Por Metro;0.0;50.0;48.4;17.5;2.86;2.77;;;-1.6;;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;48.4;0
+077;1;2025-07-14;2025-07-14;2025-07;Bahía;Azul Cielo;Por Metro;0.0;8.0;7.74;2.65;3.02;2.92;;;-0.26;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;7.74;0
+078;2;2025-07-14;2025-07-14;2025-07;Bahía;Azul Cielo;Por Metro;0.0;20.0;19.7;6.5;3.08;3.03;;;-0.3;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;19.7;0
+079;3;2025-07-14;2025-07-14;2025-07;Bahía;Azul Cielo;Por Metro;0.0;20.78;21.3;6.9;3.01;3.09;;;0.52;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;21.3;0
+080;1;2025-08-12;2025-08-12;2025-08;Jabón;Blanco;Por Kg;31.4;0.0;110.81;31.7;3.53;3.5;-0.03;-0.85;;0.3;Aprobado con Desviación;Huecos;Frecuente;1;1;2;Frecuente;0;0;1;0;0;0;0.0;110.81;0
+081;2;2025-08-12;2025-08-12;2025-08;Jabón;Blanco;Por Kg;31.9;0.0;111.31;32.35;3.49;3.44;-0.05;-1.43;;0.45;Rechazado;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;111.31;0
+082;3;2025-08-12;2025-08-12;2025-08;Jabón;Blanco;Por Kg;31.8;0.0;108.95;32.05;3.43;3.4;-0.03;-0.87;;0.25;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;108.95;0
+083;1;2025-08-12;2025-08-12;2025-08;Jabón;Verde Militar;Por Kg;31.0;0.0;105.68;31.1;3.41;3.4;-0.01;-0.29;;0.1;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;105.68;0
+084;2;2025-08-12;2025-08-12;2025-08;Jabón;Verde Militar;Por Kg;31.52;0.0;106.6;31.5;3.38;3.38;0.0;0.0;;-0.02;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;106.6;0
+085;3;2025-08-12;2025-08-12;2025-08;Jabón;Verde Militar;Por Kg;23.23;0.0;79.94;22.95;3.44;3.48;0.04;1.16;;-0.28;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;79.94;0
+086;4;2025-08-12;2025-08-12;2025-08;Jabón;Verde Militar;Por Kg;17.6;0.0;58.05;17.85;3.3;3.25;-0.05;-1.52;;0.25;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;58.05;0
+087;1;2025-08-12;2025-08-12;2025-08;Jabón;Azul Marino;Por Kg;21.0;0.0;71.01;21.0;3.38;3.38;0.0;0.0;;0.0;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;71.01;0
+088;1;2025-08-12;2025-08-12;2025-08;Jabón;Rosado Pastel;Por Kg;19.8;0.0;58.62;19.8;2.96;2.96;0.0;0.0;;0.0;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;58.62;0
+089;2;2025-08-12;2025-08-12;2025-08;Jabón;Rosado Pastel;Por Kg;20.2;0.0;67.38;20.05;3.34;3.36;0.02;0.6;;-0.15;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;67.38;0
+090;1;2025-08-12;2025-08-12;2025-08;Jabón;Gris Claro;Por Kg;28.0;0.0;98.0;28.0;3.5;3.5;0.0;0.0;;0.0;Rechazado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;98.0;0
+091;2;2025-08-12;2025-08-12;2025-08;Jabón;Gris Claro;Por Kg;29.0;0.0;97.18;28.85;3.35;3.37;0.02;0.6;;-0.15;Rechazado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;97.18;0
+092;1;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Gris;Por Metro;0.0;100.0;96.09;20.35;4.91;4.72;;;-3.91;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;96.09;0
+093;2;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Gris;Por Metro;0.0;160.0;153.31;32.15;4.98;4.77;;;-6.69;;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;153.31;0
+094;3;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Gris;Por Metro;0.0;153.14;160.0;32.2;4.76;4.97;;;6.86;;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;160.0;0
+095;1;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Negro;Por Metro;0.0;160.0;161.77;32.4;4.94;4.99;;;1.77;;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;161.77;3
+096;2;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Negro;Por Metro;0.0;130.0;122.91;25.7;5.06;4.78;;;-7.09;;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;122.91;0
+097;3;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Negro;Por Metro;0.0;160.0;150.93;31.8;5.03;4.75;;;-9.07;;Aprobado con Desviación;Idos, Manchas;Puntual;1;2;3;Puntual combinado;1;1;0;0;0;0;0.0;150.93;0
+098;4;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Negro;Por Metro;0.0;53.0;48.11;10.45;5.07;4.6;;;-4.89;;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;48.11;0
+099;1;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Kaki;Por Metro;0.0;114.0;105.59;23.05;4.95;4.58;;;-8.41;;Aprobado con Desviación;Idos, Manchas, Huecos;Frecuente;1;3;4;Crítico;1;1;1;0;0;0;0.0;105.59;2
+100;2;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Kaki;Por Metro;0.0;88.0;81.92;17.35;5.07;4.72;;;-6.08;;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;81.92;0
+101;3;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Kaki;Por Metro;0.0;81.0;78.69;16.85;4.81;4.67;;;-2.31;;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;78.69;0
+102;4;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Kaki;Por Metro;0.0;69.0;64.48;14.0;4.93;4.61;;;-4.52;;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;64.48;3
+103;1;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Azul Marino;Por Metro;0.0;149.0;142.04;31.0;4.81;4.58;;;-6.96;;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;142.04;0
+104;2;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Azul Marino;Por Metro;0.0;53.0;50.54;10.9;4.86;4.64;;;-2.46;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;50.54;0
+105;2;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Verde Militar;Por Metro;0.0;82.0;76.23;16.25;5.05;4.69;;;-5.77;;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;76.23;0
+106;1;2025-08-15;2025-08-15;2025-08;Novak Repel;Negro;Por Metro;0.0;105.0;99.26;21.4;4.91;4.64;;;-5.74;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;99.26;0
+107;1;2025-08-15;2025-08-15;2025-08;Novak Repel;Verde Militar;Por Metro;0.0;56.0;52.11;11.67;4.8;4.47;;;-3.89;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;52.11;0
+108;1;2025-08-15;2025-08-15;2025-08;Novak Repel;Azul Marino;Por Metro;0.0;100.0;97.61;25.4;3.94;3.84;;;-2.39;;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;97.61;0
+109;1;2025-08-15;2025-08-15;2025-08;Novak Repel;Gris;Por Metro;0.0;100.0;93.69;20.0;5.0;4.68;;;-6.31;;Aprobado con Desviación;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;93.69;0
+110;1;2025-08-15;2025-08-15;2025-08;Novak Repel;Blanco;Por Metro;0.0;59.0;55.26;11.7;5.04;4.72;;;-3.74;;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;55.26;0
+111;1;2025-09-03;2025-09-03;2025-09;Jabón;Vinotinto;Por Kg;6.5;0.0;22.58;6.3;3.47;3.58;0.11;3.17;;-0.2;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;22.58;1
+112;2;2025-09-03;2025-09-03;2025-09;Jabón;Vinotinto;Por Kg;8.55;0.0;26.55;8.45;3.11;3.14;0.03;0.96;;-0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;26.55;0
+113;3;2025-09-03;2025-09-03;2025-09;Jabón;Vinotinto;Por Kg;6.8;0.0;22.26;6.7;3.27;3.32;0.05;1.53;;-0.1;Aprobado con Desviación;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;22.26;0
+114;4;2025-09-03;2025-09-03;2025-09;Jabón;Vinotinto;Por Kg;15.18;0.0;50.56;15.1;3.33;3.35;0.02;0.6;;-0.08;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;50.56;0
+115;1;2025-09-03;2025-09-03;2025-09;Dry Economico;Blanco;Por Kg;23.8;0.0;128.95;23.15;5.42;5.57;0.15;2.77;;-0.65;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;128.95;0
+116;1;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;6.11;0.0;27.67;5.65;4.53;4.9;0.37;8.17;;-0.46;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;27.67;0
+117;2;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;9.58;0.0;40.85;9.0;4.26;4.54;0.28;6.57;;-0.58;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;40.85;0
+118;3;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;10.28;0.0;44.23;10.2;4.3;4.34;0.04;0.93;;-0.08;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;44.23;0
+119;4;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;10.86;0.0;48.22;10.65;4.44;4.53;0.09;2.03;;-0.21;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;48.22;0
+120;5;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;10.68;0.0;45.36;10.05;4.25;4.51;0.26;6.12;;-0.63;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;45.36;0
+121;6;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;9.64;0.0;43.48;8.55;4.51;5.09;0.58;12.86;;-1.09;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;43.48;0
+122;7;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;10.94;0.0;47.18;10.4;4.31;4.54;0.23;5.34;;-0.54;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;47.18;0
+123;8;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;10.22;0.0;46.06;10.1;4.51;4.56;0.05;1.11;;-0.12;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;46.06;0
+124;9;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;10.94;0.0;54.06;10.75;4.94;5.03;0.09;1.82;;-0.19;Aprobado con Desviación;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;54.06;0
+125;5;2025-09-11;2025-09-11;2025-09;Fitnes 28;Blanco;Por Kg;10.68;0.0;45.36;10.05;4.25;4.51;0.26;6.12;;-0.63;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;45.36;0
+126;1;2025-09-15;2025-09-15;2025-09;Fitnes 28;Azul Rey;Por Kg;11.06;0.0;54.2;11.0;4.9;4.93;0.03;0.61;;-0.06;Aprobado con Desviación;Idos, Manchas, Marcas de Agua;Frecuente;1;3;4;Crítico;1;1;0;1;0;0;0.0;54.2;0
+127;2;2025-09-15;2025-09-15;2025-09;Fitnes 28;Azul Rey;Por Kg;11.1;0.0;53.63;10.9;4.83;4.92;0.09;1.86;;-0.2;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;53.63;0
+128;3;2025-09-15;2025-09-15;2025-09;Fitnes 28;Azul Rey;Por Kg;10.92;0.0;52.81;10.8;4.84;4.89;0.05;1.03;;-0.12;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;52.81;1
+129;4;2025-09-15;2025-09-15;2025-09;Fitnes 28;Azul Rey;Por Kg;7.2;0.0;34.72;7.15;4.82;4.86;0.04;0.83;;-0.05;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;34.72;0
+130;1;2025-09-15;2025-09-15;2025-09;Fitnes 28;Vinotinto;Por Kg;11.1;0.0;52.98;10.95;4.77;4.84;0.07;1.47;;-0.15;Aprobado con Desviación;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;52.98;0
+131;2;2025-09-15;2025-09-15;2025-09;Fitnes 28;Vinotinto;Por Kg;11.2;0.0;53.87;11.1;4.81;4.85;0.04;0.83;;-0.1;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;53.87;0
+132;3;2025-09-15;2025-09-15;2025-09;Fitnes 28;Vinotinto;Por Kg;10.22;0.0;51.85;10.1;5.07;5.13;0.06;1.18;;-0.12;Aprobado con Desviación;Marcas de Agua;Frecuente;1;1;2;Frecuente;0;0;0;1;0;0;0.0;51.85;0
+133;4;2025-09-15;2025-09-15;2025-09;Fitnes 28;Vinotinto;Por Kg;11.16;0.0;54.19;11.05;4.86;4.9;0.04;0.82;;-0.11;Aprobado con Desviación;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;54.19;0
+134;5;2025-09-15;2025-09-15;2025-09;Fitnes 28;Vinotinto;Por Kg;6.68;0.0;31.22;6.6;4.67;4.73;0.06;1.28;;-0.08;Aprobado con Desviación;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;31.22;0
+135;1;2025-09-15;2025-09-15;2025-09;Fitnes 28;Coral;Por Kg;10.82;0.0;53.13;10.75;4.91;4.94;0.03;0.61;;-0.07;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;53.13;0
+136;2;2025-09-15;2025-09-15;2025-09;Fitnes 28;Coral;Por Kg;11.26;0.0;56.1;11.2;4.98;5.01;0.03;0.6;;-0.06;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.1;0
+137;3;2025-09-15;2025-09-15;2025-09;Fitnes 28;Coral;Por Kg;11.44;0.0;55.94;11.35;4.89;4.93;0.04;0.82;;-0.09;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.94;0
+138;4;2025-09-15;2025-09-15;2025-09;Fitnes 28;Coral;Por Kg;11.3;0.0;55.69;11.25;4.93;4.95;0.02;0.41;;-0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.69;0
+139;5;2025-09-15;2025-09-15;2025-09;Fitnes 28;Coral;Por Kg;8.6;0.0;42.3;8.55;4.92;4.95;0.03;0.61;;-0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;42.3;0
+140;1;2025-09-18;2025-09-18;2025-09;Jabón;Blanco;Por Kg;26.6;0.0;89.8;26.55;3.38;3.38;0.0;0.0;;-0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;89.8;0
+141;2;2025-09-18;2025-09-18;2025-09;Jabón;Blanco;Por Kg;13.2;0.0;47.25;13.95;3.58;3.39;-0.19;-5.31;;0.75;Aprobado con Desviación;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;47.25;0
+142;3;2025-09-18;2025-09-18;2025-09;Jabón;Blanco;Por Kg;13.0;0.0;44.19;13.2;3.4;3.35;-0.05;-1.47;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;44.19;0
+143;4;2025-09-18;2025-09-18;2025-09;Jabón;Blanco;Por Kg;9.2;0.0;32.43;9.55;3.53;3.4;-0.13;-3.68;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;32.43;0
+144;5;2025-09-18;2025-09-18;2025-09;Jabón;Blanco;Por Kg;9.2;0.0;30.87;9.3;3.36;3.32;-0.04;-1.19;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;30.87;0
+145;6;2025-09-18;2025-09-18;2025-09;Jabón;Blanco;Por Kg;11.1;0.0;38.54;11.15;3.47;3.46;-0.01;-0.29;;0.05;Aprobado con Desviación;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;38.54;0
+146;7;2025-09-18;2025-09-18;2025-09;Jabón;Blanco;Por Kg;8.0;0.0;26.81;8.1;3.35;3.31;-0.04;-1.19;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;26.81;0
+147;1;2025-09-18;2025-09-18;2025-09;Jabón;Negro;Por Kg;30.3;0.0;95.83;30.5;3.16;3.14;-0.02;-0.63;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;95.83;0
+148;2;2025-09-18;2025-09-18;2025-09;Jabón;Negro;Por Kg;30.5;0.0;97.5;30.55;3.2;3.19;-0.01;-0.31;;0.05;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;97.5;0
+149;3;2025-09-18;2025-09-18;2025-09;Jabón;Negro;Por Kg;30.0;0.0;95.68;30.25;3.19;3.16;-0.03;-0.94;;0.25;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;95.68;0
+150;4;2025-09-18;2025-09-18;2025-09;Jabón;Negro;Por Kg;30.3;0.0;95.12;30.55;3.14;3.11;-0.03;-0.96;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;95.12;0
+151;5;2025-09-18;2025-09-18;2025-09;Jabón;Negro;Por Kg;30.3;0.0;97.72;30.4;3.23;3.21;-0.02;-0.62;;0.1;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;97.72;0
+152;6;2025-09-18;2025-09-18;2025-09;Jabón;Negro;Por Kg;27.0;0.0;88.01;27.05;3.26;3.25;-0.01;-0.31;;0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;88.01;0
+153;7;2025-09-18;2025-09-18;2025-09;Jabón;Negro;Por Kg;25.1;0.0;83.41;24.65;3.32;3.38;0.06;1.81;;-0.45;Rechazado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;83.41;0
+154;1;2025-09-18;2025-09-18;2025-09;Jabón;Vinotinto;Por Kg;28.6;0.0;84.17;29.2;2.94;2.88;-0.06;-2.04;;0.6;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;84.17;0
+155;2;2025-09-18;2025-09-18;2025-09;Jabón;Vinotinto;Por Kg;28.4;0.0;94.92;28.8;3.34;3.3;-0.04;-1.2;;0.4;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;94.92;0
+156;1;2025-09-18;2025-09-18;2025-09;Jabón;Azul Cielo;Por Kg;20.3;0.0;75.1;20.35;3.7;3.69;-0.01;-0.27;;0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;75.1;0
+157;1;2025-09-18;2025-09-18;2025-09;Jabón;Rosado Pastel;Por Kg;20.6;0.0;75.1;20.2;3.65;3.72;0.07;1.92;;-0.4;Rechazado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;75.1;0
+158;1;2025-09-18;2025-09-18;2025-09;Jabón;Verde Militar;Por Kg;20.2;0.0;64.55;19.7;3.2;3.28;0.08;2.5;;-0.5;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;64.55;0
+159;1;2025-09-18;2025-09-18;2025-09;Jabón;Azul Marino;Por Kg;20.7;0.0;68.17;20.6;3.29;3.31;0.02;0.61;;-0.1;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;68.17;0
+160;1;2025-09-18;2025-09-18;2025-09;Jabón;Gris Claro;Por Kg;20.2;0.0;67.32;20.55;3.33;3.28;-0.05;-1.5;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;67.32;0
+161;1;2025-09-19;2025-09-19;2025-09;Viori Repel;Vinotinto;Por Metro;0.0;154.0;142.32;28.25;5.45;5.04;;;-11.68;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;142.32;0
+162;1;2025-09-19;2025-09-19;2025-09;Viori Repel;Verde Menta;Por Metro;0.0;74.0;66.63;12.75;5.8;5.23;;;-7.37;;Aprobado con Desviación;Idos, Manchas;Puntual;1;2;3;Puntual combinado;1;1;0;0;0;0;0.0;66.63;0
+163;1;2025-09-19;2025-09-19;2025-09;Viori Repel;Verde Menta;Por Metro;0.0;18.01;17.28;3.1;5.81;5.57;;;-0.73;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;17.28;0
+164;1;2025-09-19;2025-09-19;2025-09;Viori Repel;Azul Rey;Por Metro;0.0;88.0;83.81;17.0;5.18;4.93;;;-4.19;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;83.81;0
+165;1;2025-09-19;2025-09-19;2025-09;Viori Repel;Verde Militar;Por Metro;0.0;150.0;141.4;27.25;5.5;5.19;;;-8.6;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;141.4;0
+166;1;2025-09-19;2025-09-19;2025-09;Viori Repel;Negro;Por Metro;0.0;130.0;122.4;23.65;5.5;5.18;;;-7.6;;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;122.4;0
+167;2;2025-09-19;2025-09-19;2025-09;Viori Repel;Negro;Por Metro;0.0;86.0;82.67;15.65;5.5;5.28;;;-3.33;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;82.67;0
+168;3;2025-09-19;2025-09-19;2025-09;Viori Repel;Negro;Por Metro;0.0;55.0;54.2;9.95;5.53;5.45;;;-0.8;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.2;0
+169;1;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;61.0;56.65;23.15;2.63;2.45;;;-4.35;;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;56.65;0
+170;2;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;60.0;56.88;23.2;2.59;2.45;;;-3.12;;Aprobado;Idos, Huecos;Puntual;1;2;3;Puntual combinado;1;0;1;0;0;0;0.0;56.88;2
+171;3;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;60.0;57.39;22.5;2.67;2.55;;;-2.61;;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;57.39;0
+172;4;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;60.0;53.18;21.55;2.78;2.47;;;-6.82;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;53.18;0
+173;5;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;54.0;53.44;21.45;2.52;2.49;;;-0.56;;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;53.44;1
+174;6;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;61.0;57.76;23.3;2.62;2.48;;;-3.24;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.76;0
+175;7;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;60.0;56.98;23.2;2.59;2.46;;;-3.02;;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;56.98;2
+176;8;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;58.0;54.83;22.5;2.58;2.44;;;-3.17;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.83;0
+177;9;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;57.0;56.22;23.0;2.48;2.44;;;-0.78;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.22;0
+178;10;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;59.0;55.91;22.45;2.63;2.49;;;-3.09;;Aprobado;Sucio;Puntual;1;1;1;Puntual simple;0;0;0;0;1;0;0.0;55.91;1
+179;11;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;56.0;55.23;22.8;2.46;2.42;;;-0.77;;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;55.23;2
+180;12;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;58.0;56.5;23.4;2.48;2.41;;;-1.5;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.5;0
+181;13;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;56.0;52.11;21.8;2.57;2.39;;;-3.89;;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;52.11;1
+182;14;2025-10-03;2025-10-03;2025-10;Corriente;Marrón;Por Metro;0.0;61.0;56.65;23.0;2.65;2.46;;;-4.35;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.65;0
+183;1;2025-10-28;2025-10-28;2025-10;Jabón;Blanco;Por Kg;30.4;0.0;100.71;30.55;3.31;3.3;-0.01;-0.3;;0.15;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;100.71;0
+184;2;2025-10-28;2025-10-28;2025-10;Jabón;Blanco;Por Kg;31.9;0.0;104.97;32.5;3.29;3.23;-0.06;-1.82;;0.6;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;104.97;0
+185;12;2025-10-28;2025-10-28;2025-10;Jabón;Blanco;Por Kg;29.4;0.0;99.1;29.3;3.37;3.38;0.01;0.3;;-0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;99.1;0
+186;18;2025-10-28;2025-10-28;2025-10;Jabón;Blanco;Por Kg;8.4;0.0;30.0;9.1;3.57;3.3;-0.27;-7.56;;0.7;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;30.0;0
+187;19;2025-10-28;2025-10-28;2025-10;Jabón;Blanco;Por Kg;9.4;0.0;31.0;9.5;3.3;3.26;-0.04;-1.21;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;31.0;0
+188;1;2025-10-28;2025-10-28;2025-10;Jabón;Aguamarine;Por Kg;20.9;0.0;65.0;20.3;3.11;3.2;0.09;2.89;;-0.6;Rechazado;Manchas, Huecos;Puntual;1;2;3;Puntual combinado;0;1;1;0;0;0;0.0;65.0;0
+189;3;2025-10-28;2025-10-28;2025-10;Tulum;Verde Botella;Por Kg;8.15;0.0;22.3;8.05;2.74;2.77;0.03;1.09;;-0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;22.3;0
+190;3;2025-10-28;2025-10-28;2025-10;Tulum rib;Verde Botella;Por Kg;3.0;0.0;6.28;2.95;2.09;2.13;0.04;1.91;;-0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;6.28;0
+191;3;2025-10-28;2025-10-28;2025-10;Tulum;Azul Marino;Por Kg;7.9;0.0;23.15;8.95;2.93;2.59;-0.34;-11.6;;1.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;23.15;0
+192;1;2025-10-28;2025-10-28;2025-10;Tulum rib;Azul Marino;Por Kg;4.2;0.0;8.75;4.05;2.08;2.16;0.08;3.85;;-0.15;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;8.75;0
+193;3;2025-10-29;2025-10-29;2025-10;Jabón;Verde Militar;Por Kg;30.3;0.0;99.16;30.6;3.27;3.24;-0.03;-0.92;;0.3;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;99.16;3
+194;10;2025-10-29;2025-10-29;2025-10;Jabón;Lavanda;Por Kg;7.7;0.0;24.3;7.75;3.16;3.14;-0.02;-0.63;;0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;24.3;0
+195;3;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;24.9;0.0;83.18;25.4;3.34;3.27;-0.07;-2.1;;0.5;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;83.18;0
+196;8;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;29.9;0.0;98.34;29.2;3.29;3.37;0.08;2.43;;-0.7;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;98.34;1
+197;10;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;28.4;0.0;94.07;28.75;3.31;3.27;-0.04;-1.21;;0.35;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;94.07;2
+198;4;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;19.4;0.0;60.4;19.45;3.11;3.11;0.0;0.0;;0.05;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;60.4;3
+199;11;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;29.9;0.0;98.48;30.2;3.29;3.26;-0.03;-0.91;;0.3;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;98.48;2
+200;5;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;16.9;0.0;54.79;17.25;3.24;3.18;-0.06;-1.85;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.79;0
+201;15;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;13.9;0.0;45.82;14.3;3.3;3.2;-0.1;-3.03;;0.4;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;45.82;0
+202;6;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;16.4;0.0;55.43;16.65;3.38;3.33;-0.05;-1.48;;0.25;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;55.43;1
+203;9;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;13.4;0.0;48.3;13.8;3.6;3.5;-0.1;-2.78;;0.4;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;48.3;0
+204;16;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;13.4;0.0;45.96;13.5;3.43;3.4;-0.03;-0.87;;0.1;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;45.96;2
+205;17;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;11.9;0.0;38.47;12.0;3.23;3.21;-0.02;-0.62;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;38.47;0
+206;7;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;30.9;0.0;97.25;31.55;3.15;3.08;-0.07;-2.22;;0.65;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;97.25;2
+207;13;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;29.9;0.0;97.7;30.45;3.27;3.21;-0.06;-1.83;;0.55;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;97.7;0
+208;14;2025-10-29;2025-10-29;2025-10;Jabón;Blanco;Por Kg;28.6;0.0;98.96;28.75;3.46;3.44;-0.02;-0.58;;0.15;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;98.96;5
+209;10;2025-10-29;2025-10-29;2025-10;Bahamas;Blanco;Por Kg;18.0;0.0;54.7;17.9;3.04;0.0;-3.04;-100.0;;-0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.7;0
+210;2;2025-10-29;2025-10-29;2025-10;Bahamas;Negro;Por Kg;18.6;0.0;58.38;18.9;3.14;3.09;-0.05;-1.59;;0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.38;0
+211;7;2025-10-29;2025-10-29;2025-10;Bahamas;Verde Militar;Por Kg;18.15;0.0;59.28;18.6;3.27;3.19;-0.08;-2.45;;0.45;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.28;0
+212;1;2025-10-30;2025-10-30;2025-10;Jabón;Azul Marino;Por Kg;21.3;0.0;66.97;21.4;3.14;3.13;-0.01;-0.32;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;66.97;0
+213;11;2025-10-30;2025-10-30;2025-10;Bahamas;Blanco;Por Kg;12.47;0.0;38.83;12.5;3.11;3.11;0.0;0.0;;0.03;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;38.83;0
+214;9;2025-10-30;2025-10-30;2025-10;Bahamas;Blanco;Por Kg;17.15;0.0;54.34;17.25;3.17;3.15;-0.02;-0.63;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.34;0
+215;1;2025-10-31;2025-10-31;2025-10;Jabón;Gris;Por Kg;22.0;0.0;74.61;21.8;3.39;3.42;0.03;0.88;;-0.2;Rechazado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;74.61;1
+216;2;2025-10-31;2025-10-31;2025-10;Jabón;Gris;Por Kg;29.9;0.0;108.62;29.25;3.63;3.71;0.08;2.2;;-0.65;Rechazado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;108.62;4
+217;3;2025-10-31;2025-10-31;2025-10;Jabón;Gris;Por Kg;11.5;0.0;41.03;11.1;3.57;3.7;0.13;3.64;;-0.4;Rechazado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;41.03;2
+218;1;2025-11-03;2025-11-03;2025-11;Jabón;Vinotinto;Por Kg;28.7;0.0;90.03;28.45;3.14;3.16;0.02;0.64;;-0.25;Aprobado con Desviación;Idos, Manchas, Huecos;Frecuente;1;3;4;Crítico;1;1;1;0;0;0;0.0;90.03;0
+219;5;2025-11-03;2025-11-03;2025-11;Jabón;Vinotinto;Por Kg;9.7;0.0;31.94;9.7;3.29;3.29;0.0;0.0;;0.0;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;31.94;3
+220;2;2025-11-03;2025-11-03;2025-11;Jabón;Vinotinto;Por Kg;32.5;0.0;103.91;32.8;3.2;3.17;-0.03;-0.94;;0.3;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;103.91;7
+221;3;2025-11-03;2025-11-03;2025-11;Jabón;Vinotinto;Por Kg;28.8;0.0;99.45;29.0;3.45;3.43;-0.02;-0.58;;0.2;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;99.45;5
+222;4;2025-11-03;2025-11-03;2025-11;Jabón;Vinotinto;Por Kg;29.4;0.0;101.8;29.55;3.46;3.45;-0.01;-0.29;;0.15;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;101.8;3
+223;3;2025-11-03;2025-11-03;2025-11;Bahamas;Blanco;Por Kg;18.25;0.0;57.44;18.5;3.15;3.1;-0.05;-1.59;;0.25;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;57.44;6
+224;2;2025-11-03;2025-11-03;2025-11;Bahamas;Blanco;Por Kg;18.75;0.0;58.9;18.65;1.0;3.16;2.16;216.0;;-0.1;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;58.9;8
+225;1;2025-11-04;2025-11-04;2025-11;Jabón;Verde Militar;Por Kg;21.1;0.0;69.91;21.35;3.31;3.27;-0.04;-1.21;;0.25;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;69.91;2
+226;2;2025-11-04;2025-11-04;2025-11;Jabón;Verde Militar;Por Kg;19.5;0.0;69.29;19.25;3.55;3.6;0.05;1.41;;-0.25;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;69.29;2
+227;1;2025-11-04;2025-11-04;2025-11;Bahamas;Negro;Por Kg;18.25;0.0;57.59;18.25;3.16;3.16;0.0;0.0;;0.0;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.59;0
+228;1;2025-11-04;2025-11-04;2025-11;Bahamas;Blanco;Por Kg;17.95;0.0;55.52;18.95;3.09;2.93;-0.16;-5.18;;1.0;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.52;0
+229;8;2025-11-04;2025-11-04;2025-11;Bahamas;Blanco;Por Kg;18.25;0.0;55.67;18.45;3.05;3.02;-0.03;-0.98;;0.2;Aprobado con Desviación;Manchas, Huecos;Frecuente;1;2;4;Crítico;0;1;1;0;0;0;0.0;55.67;2
+230;7;2025-11-04;2025-11-04;2025-11;Bahamas;Blanco;Por Kg;18.05;0.0;57.24;18.15;3.17;3.15;-0.02;-0.63;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.24;0
+231;6;2025-11-04;2025-11-04;2025-11;Bahamas;Blanco;Por Kg;17.1;0.0;55.49;17.3;3.25;3.21;-0.04;-1.23;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.49;0
+232;5;2025-11-04;2025-11-04;2025-11;Bahamas;Blanco;Por Kg;18.65;0.0;59.4;18.85;3.18;3.15;-0.03;-0.94;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.4;0
+233;4;2025-11-04;2025-11-04;2025-11;Bahamas;Blanco;Por Kg;18.6;0.0;58.29;18.65;3.13;3.13;0.0;0.0;;0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.29;0
+234;4;2025-11-04;2025-11-04;2025-11;Bahamas;Verde Militar;Por Kg;18.15;0.0;59.17;18.45;3.26;3.21;-0.05;-1.53;;0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.17;0
+235;5;2025-11-04;2025-11-04;2025-11;Bahamas;Verde Militar;Por Kg;18.6;0.0;62.68;19.1;3.37;3.28;-0.09;-2.67;;0.5;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;62.68;0
+236;6;2025-11-04;2025-11-04;2025-11;Bahamas;Verde Militar;Por Kg;18.6;0.0;60.72;18.85;3.26;3.22;-0.04;-1.23;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;60.72;0
+237;1;2025-11-04;2025-11-04;2025-11;Bahamas;Verde Militar;Por Kg;18.4;0.0;61.97;18.9;3.37;3.28;-0.09;-2.67;;0.5;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;61.97;1
+238;2;2025-11-04;2025-11-04;2025-11;Bahamas;Verde Militar;Por Kg;18.6;0.0;61.15;19.05;3.29;3.21;-0.08;-2.43;;0.45;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;61.15;0
+239;11;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;8.4;0.0;27.4;7.8;3.26;3.51;0.25;7.67;;-0.6;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;27.4;0
+240;7;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;5.0;0.0;12.25;4.9;2.45;2.5;0.05;2.04;;-0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;12.25;0
+241;6;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;4.45;0.0;12.26;4.4;2.76;2.79;0.03;1.09;;-0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;12.26;0
+242;8;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;3.85;0.0;10.27;3.65;2.67;2.81;0.14;5.24;;-0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;10.27;0
+243;3;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;4.3;0.0;12.72;4.25;2.96;2.99;0.03;1.01;;-0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;12.72;0
+244;9;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;5.04;0.0;28.48;5.2;5.65;5.48;-0.17;-3.01;;0.16;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;28.48;0
+245;4;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;11.0;0.0;35.64;10.9;3.24;3.27;0.03;0.93;;-0.1;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;35.64;2
+246;12;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;9.1;0.0;29.59;9.35;3.25;3.16;-0.09;-2.77;;0.25;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;29.59;2
+247;5;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;12.8;0.0;43.22;12.85;3.38;3.36;-0.02;-0.59;;0.05;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;43.22;2
+248;1;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;9.0;0.0;31.15;9.25;3.46;3.37;-0.09;-2.6;;0.25;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;31.15;0
+249;2;2025-11-05;2025-11-05;2025-11;Jabón;Lavanda;Por Kg;3.95;0.0;11.46;3.95;2.9;2.9;0.0;0.0;;0.0;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;11.46;0
+250;1;2025-11-05;2025-11-05;2025-11;Jabón;Rojo;Por Kg;21.4;0.0;73.67;21.05;3.44;3.5;0.06;1.74;;-0.35;Aprobado con Desviación;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;73.67;0
+251;1;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;24.9;0.0;81.1;25.25;3.26;3.21;-0.05;-1.53;;0.35;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;81.1;0
+252;2;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;32.7;0.0;109.25;32.8;3.34;3.33;-0.01;-0.3;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;109.25;0
+253;3;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;24.0;0.0;81.42;24.1;3.39;3.38;-0.01;-0.29;;0.1;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;81.42;1
+254;4;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;31.5;0.0;103.8;31.75;3.3;3.27;-0.03;-0.91;;0.25;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;103.8;2
+255;5;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;30.7;0.0;100.14;31.1;3.26;3.22;-0.04;-1.23;;0.4;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;100.14;2
+256;6;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;34.7;0.0;117.42;34.5;3.38;3.4;0.02;0.59;;-0.2;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;117.42;2
+257;7;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;27.4;0.0;92.3;27.5;3.37;3.36;-0.01;-0.3;;0.1;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;92.3;0
+258;8;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;14.8;0.0;46.98;14.4;3.17;3.26;0.09;2.84;;-0.4;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;46.98;0
+259;9;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;11.0;0.0;34.8;10.85;3.16;3.21;0.05;1.58;;-0.15;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;34.8;1
+260;10;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;9.6;0.0;29.86;10.0;3.11;2.99;-0.12;-3.86;;0.4;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;29.86;2
+261;11;2025-11-05;2025-11-05;2025-11;Jabón;Negro;Por Kg;10.0;0.0;32.54;9.9;3.25;3.29;0.04;1.23;;-0.1;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;32.54;0
+262;3;2025-11-05;2025-11-05;2025-11;Bahamas;Verde Militar;Por Kg;18.3;0.0;62.2;18.7;3.4;3.33;-0.07;-2.06;;0.4;Aprobado con Desviación;Manchas, Empates;Puntual;1;2;3;Puntual combinado;0;1;0;0;0;1;0.0;62.2;1
+263;9;2025-11-06;2025-11-06;2025-11;Bahamas;Negro;Por Kg;18.5;0.0;59.02;18.75;3.19;3.15;-0.04;-1.25;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.02;0
+264;3;2025-11-06;2025-11-06;2025-11;Bahamas;Negro;Por Kg;18.9;0.0;58.95;19.15;3.12;3.08;-0.04;-1.28;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.95;0
+265;4;2025-11-06;2025-11-06;2025-11;Bahamas;Negro;Por Kg;18.55;0.0;59.19;18.75;3.19;3.16;-0.03;-0.94;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.19;0
+266;5;2025-11-06;2025-11-06;2025-11;Bahamas;Negro;Por Kg;18.3;0.0;57.66;18.75;3.15;3.08;-0.07;-2.22;;0.45;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.66;0
+267;6;2025-11-06;2025-11-06;2025-11;Bahamas;Negro;Por Kg;18.75;0.0;59.51;19.25;3.17;3.09;-0.08;-2.52;;0.5;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.51;0
+268;7;2025-11-06;2025-11-06;2025-11;Bahamas;Negro;Por Kg;18.55;0.0;58.95;18.9;3.18;3.12;-0.06;-1.89;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.95;0
+269;8;2025-11-06;2025-11-06;2025-11;Bahamas;Negro;Por Kg;18.6;0.0;59.15;18.95;3.18;3.12;-0.06;-1.89;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.15;0
+270;10;2025-11-06;2025-11-06;2025-11;Bahamas;Negro;Por Kg;18.8;0.0;58.41;19.05;3.11;3.07;-0.04;-1.29;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.41;0
+271;11;2025-11-06;2025-11-06;2025-11;Bahamas;Negro;Por Kg;10.48;0.0;30.45;10.2;2.91;2.99;0.08;2.75;;-0.28;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;30.45;0
+272;1;2025-11-07;2025-11-07;2025-11;Tulum;Gris;Por Kg;18.9;0.0;49.35;18.1;2.61;2.73;0.12;4.6;;-0.8;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;49.35;0
+273;1;2025-11-07;2025-11-07;2025-11;Tulum rib;Gris;Por Kg;3.6;0.0;7.09;3.6;1.97;1.97;0.0;0.0;;0.0;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;7.09;0
+274;1;2025-11-07;2025-11-07;2025-11;Novaktex Repel;Kaki;Por Metro;0.0;137.42;146.0;30.45;4.51;4.79;;;8.58;;Aprobado;Idos, Sucio;Puntual;1;2;3;Puntual combinado;1;0;0;0;1;0;0.0;146.0;0
+275;2;2025-11-07;2025-11-07;2025-11;Novaktex Repel;Kaki;Por Metro;0.0;114.26;123.0;24.5;4.66;5.02;;;8.74;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;123.0;0
+276;2;2025-11-10;2025-11-10;2025-11;Tulum;Gris;Por Kg;18.7;0.0;51.55;19.1;2.76;2.7;-0.06;-2.17;;0.4;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.55;0
+277;3;2025-11-10;2025-11-10;2025-11;Tulum;Gris;Por Kg;8.7;0.0;23.44;8.95;2.69;2.62;-0.07;-2.6;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;23.44;0
+278;1;2025-11-10;2025-11-10;2025-11;Tulum;Verde Botella;Por Kg;18.7;0.0;55.73;19.0;2.98;2.93;-0.05;-1.68;;0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.73;0
+279;2;2025-11-10;2025-11-10;2025-11;Tulum;Verde Botella;Por Kg;10.85;0.0;31.87;11.1;2.94;2.87;-0.07;-2.38;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;31.87;0
+280;1;2025-11-10;2025-11-10;2025-11;Tulum;Cereza;Por Kg;19.2;0.0;51.91;19.75;2.7;2.63;-0.07;-2.59;;0.55;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.91;0
+281;2;2025-11-10;2025-11-10;2025-11;Tulum;Cereza;Por Kg;8.7;0.0;29.72;11.1;3.42;2.68;-0.74;-21.64;;2.4;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;29.72;0
+282;1;2025-11-10;2025-11-10;2025-11;Tulum;Azul Marino;Por Kg;19.15;0.0;56.96;19.6;2.97;2.91;-0.06;-2.02;;0.45;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.96;0
+283;2;2025-11-10;2025-11-10;2025-11;Tulum;Azul Marino;Por Kg;18.75;0.0;57.09;19.1;3.04;2.99;-0.05;-1.64;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.09;0
+284;3;2025-11-10;2025-11-10;2025-11;Tulum;Azul Marino;Por Kg;7.9;0.0;23.15;8.95;2.93;2.59;-0.34;-11.6;;1.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;23.15;0
+285;4;2025-11-10;2025-11-10;2025-11;Tulum;Azul Marino;Por Kg;6.2;0.0;18.91;6.55;3.05;2.89;-0.16;-5.25;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;18.91;0
+286;1;2025-11-10;2025-11-10;2025-11;Tulum rib;Cereza;Por Kg;2.4;0.0;4.88;2.6;2.03;1.88;-0.15;-7.39;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;4.88;0
+287;3;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Kaki;Por Metro;0.0;81.57;89.0;18.8;4.34;4.73;;;7.43;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;89.0;1
+288;1;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Verde Militar;Por Metro;0.0;143.19;150.0;29.9;4.79;5.02;;;6.81;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;150.0;0
+289;2;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Verde Militar;Por Metro;0.0;138.73;150.0;31.3;4.43;4.79;;;11.27;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;150.0;0
+290;1;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;95.39;97.0;20.1;4.75;4.83;;;1.61;;Aprobado;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;97.0;0
+291;2;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;132.86;145.0;29.05;4.57;4.99;;;12.14;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;145.0;0
+292;3;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;73.56;79.0;16.05;4.58;4.92;;;5.44;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;79.0;0
+293;4;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;69.85;76.0;15.25;4.58;4.98;;;6.15;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;76.0;0
+294;5;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;53.54;57.0;11.7;4.58;4.87;;;3.46;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;57.0;1
+295;6;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;28.59;33.0;6.35;4.5;5.2;;;4.41;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;33.0;0
+296;1;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Azul Marino;Por Metro;0.0;137.65;152.0;30.7;4.48;4.95;;;14.35;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;152.0;0
+297;2;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Azul Marino;Por Metro;0.0;116.55;130.0;26.15;4.46;4.97;;;13.45;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;130.0;0
+298;3;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Azul Marino;Por Metro;0.0;21.4;22.23;4.95;4.32;4.49;;;0.83;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;22.23;0
+299;1;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;62.26;64.0;13.5;4.61;4.74;;;1.74;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;64.0;0
+300;2;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;79.03;82.0;17.4;4.54;4.71;;;2.97;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;82.0;0
+301;3;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;51.84;54.0;11.3;4.59;4.78;;;2.16;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;54.0;0
+302;4;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;44.15;46.0;9.75;4.53;4.72;;;1.85;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;46.0;0
+303;5;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;39.5;42.0;8.9;4.44;4.72;;;2.5;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;42.0;1
+304;6;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;40.26;42.0;8.8;4.58;4.77;;;1.74;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;42.0;1
+305;7;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;46.6;49.0;9.9;4.71;4.95;;;2.4;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;49.0;0
+306;8;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;17.39;21.0;4.45;3.91;4.72;;;3.61;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;21.0;0
+307;1;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Claro;Por Metro;0.0;94.51;99.02;19.45;4.86;5.09;;;4.51;;Aprobado;Idos, Huecos;Puntual;1;2;3;Puntual combinado;1;0;1;0;0;0;0.0;99.02;0
+308;2;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Claro;Por Metro;0.0;62.52;68.49;13.3;4.7;5.15;;;5.97;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;68.49;0
+309;3;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Claro;Por Metro;0.0;54.63;59.31;11.4;4.79;5.2;;;4.68;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.31;0
+310;4;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Claro;Por Metro;0.0;54.38;69.5;13.9;3.91;5.0;;;15.12;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;69.5;0
+311;5;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Claro;Por Metro;0.0;54.92;58.25;11.45;4.8;5.09;;;3.33;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.25;0
+312;6;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Claro;Por Metro;0.0;40.01;46.0;9.4;4.26;4.89;;;5.99;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;46.0;0
+313;7;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Claro;Por Metro;0.0;50.93;54.81;10.4;4.9;5.27;;;3.88;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.81;0
+314;8;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Gris Claro;Por Metro;0.0;21.39;22.5;4.6;4.65;4.89;;;1.11;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;22.5;0
+315;1;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Kaki;Por Metro;0.0;139.89;150.0;30.75;4.55;4.88;;;10.11;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;150.0;0
+316;2;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Kaki;Por Metro;0.0;139.8;150.0;30.85;4.53;4.86;;;10.2;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;150.0;0
+317;3;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Kaki;Por Metro;0.0;79.52;85.0;16.85;4.72;5.04;;;5.48;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;85.0;3
+318;4;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Kaki;Por Metro;0.0;55.02;60.0;11.7;4.7;5.13;;;4.98;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;60.0;0
+319;5;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Kaki;Por Metro;0.0;35.8;37.0;7.75;4.62;4.77;;;1.2;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;37.0;0
+320;6;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Kaki;Por Metro;0.0;33.0;35.0;7.3;4.52;4.79;;;2.0;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;35.0;0
+321;1;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Verde Militar;Sin referencia;0.0;0.0;150.0;0.0;0.0;0.0;;;;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;150.0;0
+322;1;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;150.0;141.22;30.35;4.94;4.65;;;-8.78;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;141.22;0
+323;2;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;86.0;82.25;18.4;4.67;4.47;;;-3.75;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;82.25;0
+324;3;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;91.0;81.45;18.5;4.92;4.4;;;-9.55;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;81.45;0
+325;4;2025-11-10;2025-11-10;2025-11;Novaktex Repel;Negro;Por Metro;0.0;67.0;62.26;13.35;5.02;4.66;;;-4.74;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;62.26;0
+326;5;2025-11-11;2025-11-11;2025-11;Novaktex Repel;Negro;Por Metro;0.0;67.0;59.42;14.75;4.54;4.03;;;-7.58;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.42;0
+327;6;2025-11-11;2025-11-11;2025-11;Novaktex Repel;Negro;Por Metro;0.0;49.0;46.8;10.05;4.88;4.66;;;-2.2;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;46.8;0
+328;7;2025-11-11;2025-11-11;2025-11;Novaktex Repel;Negro;Por Metro;0.0;36.0;33.54;7.9;4.56;4.25;;;-2.46;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;33.54;0
+329;8;2025-11-11;2025-11-11;2025-11;Novaktex Repel;Negro;Por Metro;0.0;38.0;36.78;8.0;4.75;4.6;;;-1.22;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;36.78;0
+330;9;2025-11-11;2025-11-11;2025-11;Novaktex Repel;Negro;Por Metro;0.0;29.0;26.0;6.2;4.68;4.19;;;-3.0;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;26.0;0
+331;1;2025-11-11;2025-11-11;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;27.0;26.12;5.8;4.66;4.5;;;-0.88;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;26.12;0
+332;2;2025-11-11;2025-11-11;2025-11;Novaktex Repel;Gris Oscuro;Por Metro;0.0;80.0;70.4;16.6;4.82;4.24;;;-9.6;;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;70.4;0
+333;1;2025-11-11;2025-11-11;2025-11;Novaktex Repel;Azul Marino;Por Metro;0.0;105.0;98.22;21.15;4.96;4.64;;;-6.78;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;98.22;0
+334;3;2025-11-11;2025-11-11;2025-11;Novaktex Repel;Azul Marino;Por Metro;0.0;80.0;75.33;16.01;5.0;4.71;;;-4.67;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;75.33;0
+335;2;2025-11-12;2025-11-12;2025-11;Tulum;Verde Botella;Por Kg;10.84;0.0;29.28;11.04;2.7;2.65;-0.05;-1.85;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;29.28;0
+336;1;2025-11-12;2025-11-12;2025-11;Tulum;Verde Botella;Por Kg;18.85;0.0;51.12;19.0;2.71;2.69;-0.02;-0.74;;0.15;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.12;0
+337;1;2025-11-12;2025-11-12;2025-11;Tulum rib;Verde Botella;Por Kg;2.39;0.0;5.33;2.75;2.23;1.94;-0.29;-13.0;;0.36;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;5.33;0
+338;1;2025-11-12;2025-11-12;2025-11;Tulum;Cereza;Por Kg;9.3;0.0;26.16;9.4;2.81;2.78;-0.03;-1.07;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;26.16;0
+339;2;2025-11-12;2025-11-12;2025-11;Tulum;Cereza;Por Kg;9.0;0.0;24.87;9.2;2.76;2.7;-0.06;-2.17;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;24.87;0
+340;1;2025-11-12;2025-11-12;2025-11;Tulum rib;Cereza;Por Kg;1.53;0.0;3.76;1.75;2.46;2.15;-0.31;-12.6;;0.22;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;3.76;0
+341;1;2025-11-12;2025-11-12;2025-11;Tulum;Gris;Por Kg;16.26;0.0;49.81;16.05;3.06;3.1;0.04;1.31;;-0.21;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;49.81;0
+342;2;2025-11-12;2025-11-12;2025-11;Tulum;Gris;Por Kg;11.0;0.0;32.84;10.35;2.99;3.17;0.18;6.02;;-0.65;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;32.84;0
+343;3;2025-11-12;2025-11-12;2025-11;Tulum;Gris;Por Kg;9.75;0.0;29.51;10.1;3.03;2.92;-0.11;-3.63;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;29.51;0
+344;4;2025-11-12;2025-11-12;2025-11;Tulum;Gris;Por Kg;7.6;0.0;24.29;7.6;3.2;3.2;0.0;0.0;;0.0;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;24.29;0
+345;1;2025-11-12;2025-11-12;2025-11;Tulum rib;Gris;Por Kg;3.59;0.0;7.97;3.35;2.22;2.38;0.16;7.21;;-0.24;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;7.97;0
+346;1;2025-11-12;2025-11-12;2025-11;Tulum;Azul Marino;Por Kg;18.45;0.0;54.19;19.0;2.94;2.85;-0.09;-3.06;;0.55;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.19;0
+347;2;2025-11-12;2025-11-12;2025-11;Tulum;Azul Marino;Por Kg;18.9;0.0;51.0;19.45;2.7;2.62;-0.08;-2.96;;0.55;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.0;0
+348;3;2025-11-12;2025-11-12;2025-11;Tulum;Azul Marino;Por Kg;18.7;0.0;53.67;18.8;2.87;2.85;-0.02;-0.7;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;53.67;0
+349;1;2025-11-12;2025-11-12;2025-11;Tulum rib;Azul Marino;Por Kg;4.49;0.0;8.14;4.3;1.81;1.89;0.08;4.42;;-0.19;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;8.14;0
+350;1;2025-11-13;2025-11-13;2025-11;Bahamas;Blanco;Por Kg;17.35;0.0;54.43;17.6;3.14;3.09;-0.05;-1.59;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.43;0
+351;2;2025-11-13;2025-11-13;2025-11;Bahamas;Blanco;Por Kg;18.0;0.0;56.72;18.2;3.15;3.12;-0.03;-0.95;;0.2;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;56.72;2
+352;3;2025-11-13;2025-11-13;2025-11;Bahamas;Blanco;Por Kg;18.0;0.0;56.85;18.15;3.16;3.13;-0.03;-0.95;;0.15;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.85;0
+353;4;2025-11-13;2025-11-13;2025-11;Bahamas;Blanco;Por Kg;16.95;0.0;54.1;17.2;3.19;3.15;-0.04;-1.25;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.1;0
+354;5;2025-11-13;2025-11-13;2025-11;Bahamas;Blanco;Por Kg;18.1;0.0;57.38;18.45;3.17;3.11;-0.06;-1.89;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.38;0
+355;6;2025-11-13;2025-11-13;2025-11;Bahamas;Blanco;Por Kg;17.6;0.0;40.6;16.7;2.31;2.43;0.12;5.19;;-0.9;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;40.6;0
+356;7;2025-11-13;2025-11-13;2025-11;Bahamas;Blanco;Por Kg;17.45;0.0;54.35;17.85;3.11;3.04;-0.07;-2.25;;0.4;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.35;0
+357;8;2025-11-13;2025-11-13;2025-11;Bahamas;Blanco;Por Kg;5.71;0.0;17.16;5.7;3.01;3.01;0.0;0.0;;-0.01;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;17.16;0
+358;1;2025-11-13;2025-11-13;2025-11;Bahamas;Verde Militar;Por Kg;18.45;0.0;62.02;18.85;3.36;3.29;-0.07;-2.08;;0.4;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;62.02;0
+359;2;2025-11-13;2025-11-13;2025-11;Bahamas;Verde Militar;Por Kg;13.95;0.0;43.49;14.25;3.12;3.05;-0.07;-2.24;;0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;43.49;0
+360;1;2025-11-13;2025-11-13;2025-11;Bahamas;Negro;Por Kg;18.55;0.0;58.08;19.0;3.13;3.06;-0.07;-2.24;;0.45;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;58.08;1
+361;2;2025-11-13;2025-11-13;2025-11;Bahamas;Negro;Por Kg;18.35;0.0;58.27;18.6;3.18;3.13;-0.05;-1.57;;0.25;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;58.27;2
+362;3;2025-11-13;2025-11-13;2025-11;Bahamas;Negro;Por Kg;18.7;0.0;60.04;18.9;3.21;3.18;-0.03;-0.93;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;60.04;0
+363;4;2025-11-13;2025-11-13;2025-11;Bahamas;Negro;Por Kg;18.4;0.0;59.13;18.5;3.21;3.2;-0.01;-0.31;;0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.13;0
+364;5;2025-11-13;2025-11-13;2025-11;Bahamas;Negro;Por Kg;6.6;0.0;21.47;6.8;3.25;3.16;-0.09;-2.77;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;21.47;0
+365;1;2025-11-14;2025-11-14;2025-11;Texflex;Blanco;Por Kg;18.64;0.0;127.0;18.6;6.81;6.83;0.02;0.29;;-0.04;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;127.0;0
+366;2;2025-11-14;2025-11-14;2025-11;Texflex;Negro;Por Kg;15.3;0.0;48.25;15.2;3.15;3.17;0.02;0.63;;-0.1;Aprobado;Marcas de Agua;Frecuente;1;1;2;Frecuente;0;0;0;1;0;0;0.0;48.25;0
+367;1;2025-11-14;2025-11-14;2025-11;Novak Repel;Blanco;Por Metro;0.0;100.0;96.69;21.65;4.62;4.47;;;-3.31;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;96.69;0
+368;1;2025-11-14;2025-11-14;2025-11;Mesh Sport;Negro;Por Kg;20.08;0.0;69.22;19.95;3.45;3.47;0.02;0.58;;-0.13;Aprobado;Idos, Huecos, Marcas de Agua;Puntual;1;3;3;Puntual combinado;1;0;1;1;0;0;0.0;69.22;2
+369;2;2025-11-14;2025-11-14;2025-11;Mesh Sport;Negro;Por Kg;19.84;0.0;67.3;19.6;3.39;3.43;0.04;1.18;;-0.24;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;67.3;0
+370;3;2025-11-14;2025-11-14;2025-11;Mesh Sport;Negro;Por Kg;20.12;0.0;72.0;20.1;3.58;3.58;0.0;0.0;;-0.02;Aprobado;Idos, Huecos;Puntual;1;2;3;Puntual combinado;1;0;1;0;0;0;0.0;72.0;0
+371;4;2025-11-14;2025-11-14;2025-11;Mesh Sport;Negro;Por Kg;20.18;0.0;70.57;20.2;3.5;3.49;-0.01;-0.29;;0.02;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;70.57;0
+372;5;2025-11-14;2025-11-14;2025-11;Mesh Sport;Negro;Por Kg;21.06;0.0;69.96;20.1;2.68;3.48;0.8;29.85;;-0.96;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;69.96;1
+373;1;2025-11-17;2025-11-17;2025-11;Viori Repel;Verde Manzana;Por Metro;0.0;25.0;24.6;4.4;5.68;5.59;;;-0.4;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;24.6;0
+374;1;2025-11-17;2025-11-17;2025-11;Viori Repel;Verde Militar;Por Metro;0.0;25.0;23.67;4.55;5.49;5.2;;;-1.33;;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;23.67;5
+375;1;2025-11-17;2025-11-17;2025-11;Viori Repel;Azul Cielo;Por Metro;0.0;25.76;20.87;4.45;5.79;4.69;;;-4.89;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;20.87;0
+376;1;2025-11-17;2025-11-17;2025-11;Viori Repel;Vinotinto;Por Metro;0.0;24.0;21.9;4.7;5.11;4.66;;;-2.1;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;21.9;0
+377;1;2025-11-18;2025-11-18;2025-11;Universal;Habano (Kakhi);Por Metro;0.0;101.0;99.05;19.9;5.08;4.98;;;-1.95;;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;99.05;4
+378;2;2025-11-18;2025-11-18;2025-11;Universal;Habano (Kakhi);Por Metro;0.0;100.2;97.23;20.15;4.97;4.83;;;-2.97;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;97.23;2
+379;1;2025-11-18;2025-11-18;2025-11;Universal;Verde Marino;Por Metro;0.0;102.9;98.9;21.25;4.84;4.65;;;-4.0;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;98.9;2
+380;2;2025-11-18;2025-11-18;2025-11;Universal;Verde Marino;Por Metro;0.0;56.0;54.01;21.25;2.64;2.54;;;-1.99;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;54.01;1
+381;3;2025-11-18;2025-11-18;2025-11;Universal;Verde Marino;Por Metro;0.0;43.3;41.4;8.9;4.87;4.65;;;-1.9;;Aprobado;Manchas;Frecuente;1;1;2;Frecuente;0;1;0;0;0;0;0.0;41.4;3
+382;1;2025-11-18;2025-11-18;2025-11;Universal;Rojo;Por Metro;0.0;89.6;85.07;18.1;4.95;4.7;;;-4.53;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;85.07;0
+383;2;2025-11-18;2025-11-18;2025-11;Universal;Rojo;Por Metro;0.0;78.6;74.86;15.45;5.09;4.85;;;-3.74;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;74.86;0
+384;3;2025-11-18;2025-11-18;2025-11;Universal;Rojo;Sin referencia;0.0;0.0;22.17;4.9;4.48;4.52;;;;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;22.17;0
+385;4;2025-11-18;2025-11-18;2025-11;Universal;Rojo;Sin referencia;0.0;0.0;9.97;2.1;4.53;4.75;;;;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;9.97;0
+386;1;2025-11-18;2025-11-18;2025-11;Universal;Verde Pino;Por Metro;0.0;73.6;70.98;15.1;4.87;4.7;;;-2.62;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;70.98;0
+387;2;2025-11-18;2025-11-18;2025-11;Universal;Verde Pino;Por Metro;0.0;49.6;46.76;10.1;4.91;4.63;;;-2.84;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;46.76;0
+388;3;2025-11-18;2025-11-18;2025-11;Universal;Verde Pino;Por Metro;0.0;26.0;24.91;5.4;4.81;4.61;;;-1.09;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;24.91;0
+389;4;2025-11-18;2025-11-18;2025-11;Universal;Verde Pino;Por Metro;0.0;50.4;48.74;10.4;4.85;4.69;;;-1.66;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;48.74;0
+390;1;2025-11-18;2025-11-18;2025-11;Universal;Verde Pizarra;Por Metro;0.0;99.6;96.93;20.3;4.91;4.77;;;-2.67;;Aprobado;Idos, Manchas;Puntual;1;2;3;Puntual combinado;1;1;0;0;0;0;0.0;96.93;2
+391;2;2025-11-18;2025-11-18;2025-11;Universal;Verde Pizarra;Por Metro;0.0;100.8;98.18;19.7;5.12;4.98;;;-2.62;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;98.18;0
+392;1;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.34;0.0;70.69;15.1;4.61;4.68;0.07;1.52;;-0.24;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;70.69;2
+393;2;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.41;0.0;73.89;14.9;4.79;4.96;0.17;3.55;;-0.51;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;73.89;1
+394;3;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.26;0.0;63.0;14.85;4.13;4.24;0.11;2.66;;-0.41;Aprobado;Huecos, Empates;Puntual;1;2;3;Puntual combinado;0;0;1;0;0;1;0.0;63.0;1
+395;4;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.18;0.0;71.2;14.65;4.69;4.86;0.17;3.62;;-0.53;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;71.2;1
+396;5;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.27;0.0;72.56;14.7;4.75;4.94;0.19;4.0;;-0.57;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;72.56;0
+397;6;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.45;0.0;76.46;14.9;4.95;5.13;0.18;3.64;;-0.55;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;76.46;5
+398;7;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.53;0.0;71.18;15.0;4.58;4.75;0.17;3.71;;-0.53;Aprobado;Manchas, Huecos;Frecuente;1;2;4;Crítico;0;1;1;0;0;0;0.0;71.18;3
+399;8;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.08;0.0;69.5;14.6;4.61;4.76;0.15;3.25;;-0.48;Aprobado;Idos, Sucio;Puntual;1;2;3;Puntual combinado;1;0;0;0;1;0;0.0;69.5;1
+400;9;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.61;0.0;74.68;15.15;4.78;4.93;0.15;3.14;;-0.46;Aprobado;Manchas, Huecos;Puntual;1;2;3;Puntual combinado;0;1;1;0;0;0;0.0;74.68;2
+401;10;2025-11-25;2025-11-25;2025-11;City New;Blanco;Por Kg;15.32;0.0;73.09;14.8;4.77;4.94;0.17;3.56;;-0.52;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;73.09;0
+402;1;2025-11-26;2025-11-26;2025-11;Bio Flow;Negro;Por Kg;12.82;0.0;77.5;12.4;6.05;6.25;0.2;3.31;;-0.42;Aprobado;Idos, Manchas, Empates;Puntual;1;3;3;Puntual combinado;1;1;0;0;0;1;0.0;77.5;2
+403;2;2025-11-26;2025-11-26;2025-11;Bio Flow;Negro;Por Kg;13.24;0.0;82.24;12.85;6.21;6.4;0.19;3.06;;-0.39;Aprobado;Huecos, Empates;Puntual;1;2;3;Puntual combinado;0;0;1;0;0;1;0.0;82.24;1
+404;3;2025-11-26;2025-11-26;2025-11;Bio Flow;Negro;Por Kg;12.0;0.0;72.43;11.5;6.04;6.3;0.26;4.3;;-0.5;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;72.43;0
+405;4;2025-11-26;2025-11-26;2025-11;Bio Flow;Negro;Por Kg;12.06;0.0;75.08;11.7;6.23;6.42;0.19;3.05;;-0.36;Aprobado;Huecos, Empates;Puntual;1;2;3;Puntual combinado;0;0;1;0;0;1;0.0;75.08;2
+406;5;2025-11-26;2025-11-26;2025-11;Bio Flow;Negro;Por Kg;12.98;0.0;78.72;12.65;6.06;6.22;0.16;2.64;;-0.33;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;78.72;0
+407;6;2025-11-26;2025-11-26;2025-11;Bio Flow;Negro;Por Kg;10.66;0.0;63.36;10.35;5.94;6.12;0.18;3.03;;-0.31;Aprobado;Empates;Puntual;1;1;1;Puntual simple;0;0;0;0;0;1;0.0;63.36;2
+408;7;2025-11-26;2025-11-26;2025-11;Bio Flow;Negro;Por Kg;10.98;0.0;62.87;10.5;5.73;5.99;0.26;4.54;;-0.48;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;62.87;10
+409;8;2025-11-26;2025-11-26;2025-11;Bio Flow;Negro;Por Kg;12.28;0.0;73.86;11.8;6.01;6.26;0.25;4.16;;-0.48;Aprobado;Empates;Puntual;1;1;1;Puntual simple;0;0;0;0;0;1;0.0;73.86;2
+410;9;2025-11-26;2025-11-26;2025-11;Bio Flow;Negro;Por Kg;12.34;0.0;70.64;11.95;5.72;5.91;0.19;3.32;;-0.39;Aprobado;Idos, Huecos;Puntual;1;2;3;Puntual combinado;1;0;1;0;0;0;0.0;70.64;2
+411;1;2025-11-27;2025-11-27;2025-11;Jabón;Aguamarine;Por Kg;15.7;0.0;48.62;15.5;3.1;3.14;0.04;1.29;;-0.2;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;48.62;5
+412;1;2025-11-27;2025-11-27;2025-11;Jabón;Verde Militar;Por Kg;29.1;0.0;95.59;29.15;3.28;3.28;0.0;0.0;;0.05;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;95.59;0
+413;1;2025-11-28;2025-11-28;2025-11;Jabón;Azul Rey;Por Kg;20.3;0.0;61.06;20.4;3.01;2.99;-0.02;-0.66;;0.1;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;61.06;1
+414;1;2025-11-28;2025-11-28;2025-11;Jabón;Gris Claro;Por Kg;14.4;0.0;49.0;14.15;3.4;3.46;0.06;1.76;;-0.25;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;49.0;2
+415;1;2025-11-28;2025-11-28;2025-11;Jabón;Azul Marino;Por Kg;25.4;0.0;83.04;25.65;3.27;3.24;-0.03;-0.92;;0.25;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;83.04;3
+416;2;2025-11-28;2025-11-28;2025-11;Jabón;Azul Marino;Por Kg;30.7;0.0;101.23;30.5;3.3;3.32;0.02;0.61;;-0.2;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;101.23;15
+417;1;2025-11-28;2025-11-28;2025-11;Jabón;Vinotinto;Por Kg;20.0;0.0;66.7;19.55;3.34;3.41;0.07;2.1;;-0.45;Aprobado con Desviación;Huecos, Empates, Marcas de Agua;Frecuente;1;3;4;Crítico;0;0;1;1;0;1;0.0;66.7;2
+418;1;2025-11-28;2025-11-28;2025-11;Jabón;Amarillo Neón;Por Kg;20.1;0.0;68.22;20.55;3.39;3.32;-0.07;-2.06;;0.45;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;68.22;2
+419;1;2025-11-28;2025-11-28;2025-11;Jabón;Rojo;Por Kg;20.0;0.0;67.13;19.65;3.36;3.42;0.06;1.79;;-0.35;Aprobado;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;67.13;2
+420;1;2025-11-28;2025-11-28;2025-11;Jabón;Rosado Pastel;Por Kg;20.0;0.0;60.61;20.0;3.03;3.03;0.0;0.0;;0.0;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;60.61;0
+421;1;2025-11-29;2025-11-29;2025-11;Jabón;Lavanda;Por Kg;30.0;0.0;99.0;29.7;3.3;3.33;0.03;0.91;;-0.3;Aprobado con Desviación;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;99.0;0
+422;23;2025-12-01;2025-12-01;2025-12;Jabón;Blanco;Por Kg;28.3;0.0;97.32;28.6;3.44;3.4;-0.04;-1.16;;0.3;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;97.32;7
+423;13;2025-12-01;2025-12-01;2025-12;Jabón;Blanco;Por Kg;28.8;0.0;94.03;29.15;3.26;3.23;-0.03;-0.92;;0.35;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;94.03;2
+424;12;2025-12-01;2025-12-01;2025-12;Jabón;Blanco;Por Kg;28.1;0.0;96.16;28.2;3.42;3.41;-0.01;-0.29;;0.1;Aprobado;Idos, Sucio, Huecos;Frecuente;1;3;4;Crítico;1;0;1;0;1;0;0.0;96.16;6
+425;24;2025-12-01;2025-12-01;2025-12;Jabón;Blanco;Por Kg;14.3;0.0;49.9;14.75;3.49;3.38;-0.11;-3.15;;0.45;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;49.9;3
+426;20;2025-12-01;2025-12-01;2025-12;Jabón;Blanco;Por Kg;26.1;0.0;90.01;26.25;3.45;3.43;-0.02;-0.58;;0.15;Aprobado;Idos, Sucio;Puntual;1;2;3;Puntual combinado;1;0;0;0;1;0;0.0;90.01;2
+427;22;2025-12-01;2025-12-01;2025-12;Jabón;Blanco;Por Kg;22.7;0.0;71.27;22.75;3.14;3.13;-0.01;-0.32;;0.05;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;71.27;0
+428;21;2025-12-01;2025-12-01;2025-12;Jabón;Blanco;Por Kg;12.0;0.0;41.63;12.15;3.47;3.43;-0.04;-1.15;;0.15;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;41.63;1
+429;19;2025-12-01;2025-12-01;2025-12;Jabón;Blanco;Por Kg;29.3;0.0;96.85;28.6;3.31;3.39;0.08;2.42;;-0.7;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;96.85;3
+430;1;2025-12-01;2025-12-01;2025-12;Jabón;Lila;Por Kg;20.1;0.0;69.25;20.15;3.45;3.44;-0.01;-0.29;;0.05;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;69.25;2
+431;3;2025-12-01;2025-12-01;2025-12;Jabón;Azul Rey;Por Kg;14.2;0.0;44.92;14.1;3.16;3.19;0.03;0.95;;-0.1;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;44.92;0
+432;2;2025-12-03;2025-12-03;2025-12;Jabón;Azul Rey;Por Kg;19.0;0.0;66.4;19.1;3.49;3.48;-0.01;-0.29;;0.1;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;66.4;0
+433;1;2025-12-03;2025-12-03;2025-12;Jabón;Blanco;Por Kg;29.4;0.0;97.25;29.4;3.31;3.31;0.0;0.0;;0.0;Aprobado;Manchas, Sucio;Frecuente;1;2;4;Crítico;0;1;0;0;1;0;0.0;97.25;1
+434;2;2025-12-03;2025-12-03;2025-12;Jabón;Blanco;Por Kg;29.9;0.0;97.25;30.05;3.25;3.24;-0.01;-0.31;;0.15;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;97.25;4
+435;1;2025-12-03;2025-12-03;2025-12;Jabón;Blanco;Por Kg;30.4;0.0;96.21;30.45;3.16;3.16;0.0;0.0;;0.05;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;96.21;4
+436;3;2025-12-03;2025-12-03;2025-12;Jabón;Blanco;Por Kg;30.9;0.0;103.58;31.15;3.35;3.33;-0.02;-0.6;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;103.58;0
+437;7;2025-12-03;2025-12-03;2025-12;Jabón;Blanco;Por Kg;8.4;0.0;24.93;8.25;2.97;3.02;0.05;1.68;;-0.15;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;24.93;0
+438;6;2025-12-03;2025-12-03;2025-12;Jabón;Blanco;Por Kg;23.9;0.0;73.97;23.9;3.09;3.09;0.0;0.0;;0.0;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;73.97;1
+439;4;2025-12-03;2025-12-03;2025-12;Jabón;Blanco;Por Kg;30.4;0.0;97.25;30.4;3.2;3.2;0.0;0.0;;0.0;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;97.25;0
+440;1;2025-12-03;2025-12-03;2025-12;Jabón;Amarillo Neón;Por Kg;20.3;0.0;67.95;20.3;3.35;3.35;0.0;0.0;;0.0;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;67.95;4
+441;1;2025-12-03;2025-12-03;2025-12;Jabón;Azul Rey;Por Kg;9.4;0.0;31.16;9.5;3.31;3.28;-0.03;-0.91;;0.1;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;31.16;1
+442;5;2025-12-03;2025-12-03;2025-12;Jabón;Verde Militar;Por Kg;16.5;0.0;53.89;16.4;3.27;3.29;0.02;0.61;;-0.1;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;53.89;2
+443;9;2025-12-03;2025-12-03;2025-12;Jabón;Verde Militar;Por Kg;29.6;0.0;0.0;29.15;0.0;0.0;0.0;;;-0.45;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;0.0;6
+444;6;2025-12-04;2025-12-04;2025-12;Jabón;Lavanda;Por Kg;28.2;0.0;94.03;28.45;3.33;3.31;-0.02;-0.6;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;94.03;0
+445;4;2025-12-04;2025-12-04;2025-12;Jabón;Lavanda;Por Kg;30.1;0.0;100.22;30.05;3.33;3.34;0.01;0.3;;-0.05;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;100.22;12
+446;1;2025-12-04;2025-12-04;2025-12;Jabón;Lavanda;Por Kg;30.4;0.0;101.64;30.6;3.34;3.32;-0.02;-0.6;;0.2;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;101.64;2
+447;3;2025-12-04;2025-12-04;2025-12;Jabón;Lavanda;Por Kg;31.8;0.0;105.7;31.95;3.32;3.31;-0.01;-0.3;;0.15;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;105.7;4
+448;2;2025-12-04;2025-12-04;2025-12;Jabón;Lavanda;Por Kg;31.3;0.0;104.59;31.55;3.34;3.32;-0.02;-0.6;;0.25;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;104.59;3
+449;5;2025-12-04;2025-12-04;2025-12;Jabón;Lavanda;Por Kg;29.0;0.0;99.7;29.15;3.44;3.42;-0.02;-0.58;;0.15;Aprobado con Desviación;Idos, Sucio;Frecuente;1;2;4;Crítico;1;0;0;0;1;0;0.0;99.7;4
+450;7;2025-12-04;2025-12-04;2025-12;Jabón;Aguamarine;Por Kg;31.6;0.0;107.14;31.5;3.39;3.4;0.01;0.29;;-0.1;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;107.14;5
+451;3;2025-12-04;2025-12-04;2025-12;Jabón;Aguamarine;Por Kg;15.71;0.0;48.82;15.6;3.11;3.13;0.02;0.64;;-0.11;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;48.82;3
+452;2;2025-12-04;2025-12-04;2025-12;Jabón;Aguamarine;Por Kg;17.4;0.0;53.29;17.5;3.06;3.05;-0.01;-0.33;;0.1;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;53.29;2
+453;10;2025-12-04;2025-12-04;2025-12;Jabón;Aguamarine;Por Kg;31.0;0.0;101.64;31.2;3.28;3.26;-0.02;-0.61;;0.2;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;101.64;4
+454;8;2025-12-04;2025-12-04;2025-12;Jabón;Aguamarine;Por Kg;31.7;0.0;99.28;31.8;3.13;3.12;-0.01;-0.32;;0.1;Aprobado con Desviación;Huecos;Frecuente;1;1;2;Frecuente;0;0;1;0;0;0;0.0;99.28;0
+455;4;2025-12-04;2025-12-04;2025-12;Jabón;Aguamarine;Por Kg;17.0;0.0;54.16;16.8;3.19;3.22;0.03;0.94;;-0.2;Rechazado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.16;0
+456;5;2025-12-04;2025-12-04;2025-12;Jabón;Aguamarine;Por Kg;16.6;0.0;49.4;16.1;2.98;3.07;0.09;3.02;;-0.5;Aprobado;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;49.4;2
+457;6;2025-12-04;2025-12-04;2025-12;Jabón;Aguamarine;Por Kg;31.9;0.0;101.31;31.7;3.18;3.2;0.02;0.63;;-0.2;Rechazado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;101.31;0
+458;9;2025-12-04;2025-12-04;2025-12;Jabón;Aguamarine;Por Kg;30.7;0.0;97.31;30.7;3.17;3.17;0.0;0.0;;0.0;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;97.31;4
+459;4;2025-12-04;2025-12-04;2025-12;Jabón;Verde Militar;Por Kg;22.7;0.0;72.84;22.75;3.21;3.2;-0.01;-0.31;;0.05;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;72.84;3
+460;4;2025-12-04;2025-12-04;2025-12;Jabón;Azul Marino;Por Kg;13.4;0.0;45.35;13.55;3.38;3.35;-0.03;-0.89;;0.15;Aprobado con Desviación;Idos, Huecos, Marcas de Agua;Frecuente;1;3;4;Crítico;1;0;1;1;0;0;0.0;45.35;13
+461;13;2025-12-04;2025-12-04;2025-12;Jabón;Azul Marino;Por Kg;31.1;0.0;104.93;31.5;3.37;3.33;-0.04;-1.19;;0.4;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;104.93;8
+462;12;2025-12-04;2025-12-04;2025-12;Jabón;Azul Marino;Por Kg;26.6;0.0;100.0;29.9;3.76;3.34;-0.42;-11.17;;3.3;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;100.0;5
+463;3;2025-12-04;2025-12-04;2025-12;Jabón;Gris Claro;Por Kg;8.4;0.0;29.23;8.4;3.48;3.48;0.0;0.0;;0.0;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;29.23;2
+464;11;2025-12-04;2025-12-04;2025-12;Jabón;Gris Claro;Por Kg;10.7;0.0;36.5;10.75;3.41;3.4;-0.01;-0.29;;0.05;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;36.5;0
+465;8;2025-12-04;2025-12-04;2025-12;Jabón;Gris Claro;Por Kg;13.2;0.0;0.0;13.15;0.0;0.0;0.0;;;-0.05;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;0.0;3
+466;2;2025-12-04;2025-12-04;2025-12;Jabón;Gris Claro;Por Kg;9.8;0.0;34.4;10.0;3.51;3.44;-0.07;-1.99;;0.2;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;34.4;0
+467;10;2025-12-04;2025-12-04;2025-12;Jabón;Gris Claro;Por Kg;11.0;0.0;36.79;11.1;3.34;3.31;-0.03;-0.9;;0.1;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;36.79;2
+468;1;2025-12-04;2025-12-04;2025-12;Jabón;Gris Claro;Por Kg;18.2;0.0;63.21;18.3;3.47;3.45;-0.02;-0.58;;0.1;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;63.21;2
+469;6;2025-12-04;2025-12-04;2025-12;Jabón;Verde Militar;Por Kg;15.5;0.0;46.63;15.6;3.01;2.99;-0.02;-0.66;;0.1;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;46.63;0
+470;10;2025-12-05;2025-12-05;2025-12;Jabón;Verde Militar;Por Kg;28.8;0.0;97.45;29.0;3.38;3.36;-0.02;-0.59;;0.2;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;97.45;7
+471;1;2025-12-05;2025-12-05;2025-12;Jabón;Lila;Por Kg;20.1;0.0;63.67;20.2;3.17;3.15;-0.02;-0.63;;0.1;Aprobado;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;63.67;4
+472;7;2025-12-05;2025-12-05;2025-12;Jabón;Gris Claro;Por Kg;17.1;0.0;59.24;17.7;3.46;3.35;-0.11;-3.18;;0.6;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;59.24;0
+473;3;2025-12-05;2025-12-05;2025-12;Jabón;Vinotinto;Por Kg;31.5;0.0;102.21;31.95;3.24;3.2;-0.04;-1.23;;0.45;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;102.21;5
+474;1;2025-12-05;2025-12-05;2025-12;Jabón;Rosado Pastel;Por Kg;20.3;0.0;61.64;20.35;3.04;3.03;-0.01;-0.33;;0.05;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;61.64;2
+475;14;2025-12-05;2025-12-05;2025-12;Jabón;Azul Marino;Por Kg;30.8;0.0;99.68;31.1;3.24;3.21;-0.03;-0.93;;0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;99.68;0
+476;1;2025-12-05;2025-12-05;2025-12;Jabón;Rojo;Por Kg;20.2;0.0;67.43;20.45;3.34;3.3;-0.04;-1.2;;0.25;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;67.43;0
+477;5;2025-12-05;2025-12-05;2025-12;Jabón;Gris Claro;Por Kg;12.2;0.0;41.95;12.45;3.44;3.37;-0.07;-2.03;;0.25;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;41.95;0
+478;9;2025-12-05;2025-12-05;2025-12;Jabón;Gris Claro;Por Kg;22.3;0.0;77.61;22.35;3.48;3.47;-0.01;-0.29;;0.05;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;77.61;2
+479;4;2025-12-05;2025-12-05;2025-12;Jabón;Gris Claro;Por Kg;11.2;0.0;38.55;11.35;3.44;3.4;-0.04;-1.16;;0.15;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;38.55;1
+480;6;2025-12-05;2025-12-05;2025-12;Jabón;Gris Claro;Por Kg;13.9;0.0;48.16;13.95;3.46;3.45;-0.01;-0.29;;0.05;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;48.16;0
+481;9;2025-12-05;2025-12-05;2025-12;Jabón;Negro;Por Kg;11.4;0.0;33.85;11.65;2.97;2.91;-0.06;-2.02;;0.25;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;33.85;0
+482;10;2025-12-05;2025-12-05;2025-12;Jabón;Negro;Por Kg;14.3;0.0;44.17;14.6;3.09;3.03;-0.06;-1.94;;0.3;Aprobado;Marcas de Agua;Frecuente;1;1;2;Frecuente;0;0;0;1;0;0;0.0;44.17;0
+483;15;2025-12-05;2025-12-05;2025-12;Jabón;Negro;Por Kg;17.6;0.0;56.61;17.6;3.22;3.22;0.0;0.0;;0.0;Aprobado con Desviación;Huecos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;0;0;1;1;0;0;0.0;56.61;0
+484;15;2025-12-05;2025-12-05;2025-12;Jabón;Blanco;Por Kg;28.8;0.0;98.81;28.8;3.43;3.43;0.0;0.0;;0.0;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;98.81;3
+485;14;2025-12-05;2025-12-05;2025-12;Jabón;Blanco;Por Kg;29.5;0.0;95.81;29.75;3.25;3.22;-0.03;-0.92;;0.25;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;95.81;4
+486;16;2025-12-05;2025-12-05;2025-12;Jabón;Blanco;Por Kg;29.3;0.0;96.69;29.25;3.3;3.31;0.01;0.3;;-0.05;Aprobado con Desviación;Sucio;Frecuente;1;1;2;Frecuente;0;0;0;0;1;0;0.0;96.69;5
+487;17;2025-12-05;2025-12-05;2025-12;Jabón;Blanco;Por Kg;29.1;0.0;95.18;29.35;3.27;3.24;-0.03;-0.92;;0.25;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;95.18;6
+488;9;2025-12-05;2025-12-05;2025-12;Jabón;Blanco;Por Kg;24.9;0.0;78.92;24.8;3.17;3.18;0.01;0.32;;-0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;78.92;0
+489;10;2025-12-05;2025-12-05;2025-12;Jabón;Blanco;Por Kg;30.0;0.0;91.28;30.0;3.04;3.04;0.0;0.0;;0.0;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;91.28;3
+490;8;2025-12-05;2025-12-05;2025-12;Jabón;Blanco;Por Kg;13.4;0.0;47.12;14.75;3.52;3.19;-0.33;-9.38;;1.35;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;47.12;2
+491;11;2025-12-05;2025-12-05;2025-12;Jabón;Blanco;Por Kg;17.4;0.0;56.41;17.15;3.24;3.29;0.05;1.54;;-0.25;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;56.41;4
+492;1;2025-12-05;2025-12-05;2025-12;Jabón;Vinotinto;Por Kg;30.3;0.0;95.15;29.5;3.14;3.23;0.09;2.87;;-0.8;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;95.15;5
+493;7;2025-12-05;2025-12-05;2025-12;Jabón;Verde Militar;Por Kg;30.0;0.0;95.55;29.85;3.19;3.2;0.01;0.31;;-0.15;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;95.55;0
+494;11;2025-12-05;2025-12-05;2025-12;Jabón;Azul Marino;Por Kg;25.7;0.0;89.05;25.85;3.46;3.44;-0.02;-0.58;;0.15;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;89.05;6
+495;9;2025-12-06;2025-12-06;2025-12;Jabón;Blanco;Por Kg;30.0;0.0;96.86;30.3;3.23;3.2;-0.03;-0.93;;0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;96.86;0
+496;7;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;19.3;0.0;68.6;19.6;3.55;3.5;-0.05;-1.41;;0.3;Aprobado;Huecos, Marcas de Agua;Frecuente;1;2;4;Crítico;0;0;1;1;0;0;0.0;68.6;0
+497;13;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;17.6;0.0;59.4;17.85;3.38;3.33;-0.05;-1.48;;0.25;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;59.4;1
+498;4;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;30.4;0.0;101.51;30.3;3.34;3.35;0.01;0.3;;-0.1;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;101.51;3
+499;3;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;18.9;0.0;0.0;18.7;0.0;0.0;0.0;;;-0.2;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;0.0;2
+500;12;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;17.9;0.0;53.72;17.95;3.0;2.99;-0.01;-0.33;;0.05;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;53.72;5
+501;6;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;19.9;0.0;65.81;17.9;3.31;3.68;0.37;11.18;;-2.0;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;65.81;0
+502;11;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;21.6;0.0;72.18;21.65;3.34;3.33;-0.01;-0.3;;0.05;Aprobado;Marcas de Agua;Frecuente;1;1;2;Frecuente;0;0;0;1;0;0;0.0;72.18;0
+503;8;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;31.2;0.0;91.05;31.3;2.92;2.91;-0.01;-0.34;;0.1;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;91.05;1
+504;2;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;30.8;0.0;77.92;30.6;2.53;2.55;0.02;0.79;;-0.2;Aprobado;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;77.92;8
+505;5;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;18.3;0.0;59.43;18.3;3.25;3.25;0.0;0.0;;0.0;Aprobado con Desviación;Idos, Huecos, Marcas de Agua;Puntual;1;3;3;Puntual combinado;1;0;1;1;0;0;0.0;59.43;2
+506;14;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;17.5;0.0;80.14;15.85;4.58;5.06;0.48;10.48;;-1.65;Aprobado;Huecos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;0;0;1;1;0;0;0.0;80.14;1
+507;1,1;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;24.5;0.0;81.11;24.4;3.31;3.32;0.01;0.3;;-0.1;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;81.11;1
+508;11;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;29.4;0.0;96.83;29.75;3.29;3.25;-0.04;-1.22;;0.35;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;96.83;7
+509;1;2025-12-06;2025-12-06;2025-12;Jabón;Negro;Por Kg;30.8;0.0;102.09;30.7;3.31;3.33;0.02;0.6;;-0.1;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;102.09;0
+510;3;2025-12-06;2025-12-06;2025-12;Jabón;Verde Militar;Por Kg;21.0;0.0;68.9;20.95;3.28;3.29;0.01;0.3;;-0.05;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;68.9;4
+511;1;2025-12-06;2025-12-06;2025-12;Jabón;Verde Militar;Por Kg;29.0;0.0;94.49;29.0;3.26;3.26;0.0;0.0;;0.0;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;94.49;3
+512;2;2025-12-06;2025-12-06;2025-12;Jabón;Verde Militar;Por Kg;29.0;0.0;91.39;28.9;3.15;3.16;0.01;0.32;;-0.1;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;91.39;0
+513;8;2025-12-06;2025-12-06;2025-12;Jabón;Verde Militar;Por Kg;29.4;0.0;97.48;29.55;3.32;3.3;-0.02;-0.6;;0.15;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;97.48;6
+514;3;2025-12-06;2025-12-06;2025-12;Jabón;Azul Marino;Por Kg;29.9;0.0;98.23;30.05;3.29;3.27;-0.02;-0.61;;0.15;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;98.23;5
+515;10;2025-12-06;2025-12-06;2025-12;Jabón;Azul Marino;Por Kg;23.9;0.0;78.53;23.25;3.29;3.38;0.09;2.74;;-0.65;Aprobado con Desviación;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;78.53;2
+516;1;2025-12-06;2025-12-06;2025-12;Jabón;Azul Marino;Por Kg;27.3;0.0;87.78;27.6;3.22;3.18;-0.04;-1.24;;0.3;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;87.78;3
+517;9;2025-12-06;2025-12-06;2025-12;Jabón;Azul Marino;Por Kg;30.0;0.0;100.13;30.35;3.34;3.3;-0.04;-1.2;;0.35;Aprobado con Desviación;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;100.13;0
+518;6;2025-12-06;2025-12-06;2025-12;Jabón;Azul Marino;Por Kg;27.0;0.0;84.76;27.45;3.14;3.09;-0.05;-1.59;;0.45;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;84.76;0
+519;5;2025-12-06;2025-12-06;2025-12;Jabón;Azul Marino;Por Kg;21.7;0.0;71.13;22.0;3.28;3.23;-0.05;-1.52;;0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;71.13;0
+520;7;2025-12-06;2025-12-06;2025-12;Jabón;Azul Marino;Por Kg;28.9;0.0;97.08;29.1;3.36;3.34;-0.02;-0.6;;0.2;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;97.08;5
+521;2;2025-12-06;2025-12-06;2025-12;Jabón;Azul Marino;Por Kg;31.5;0.0;100.35;31.95;3.19;3.14;-0.05;-1.57;;0.45;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;100.35;2
+522;8;2025-12-06;2025-12-06;2025-12;Jabón;Azul Marino;Por Kg;31.3;0.0;103.28;31.75;3.3;3.25;-0.05;-1.52;;0.45;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;103.28;0
+523;11;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;79.3;75.16;15.6;5.08;4.82;;;-4.14;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;75.16;1
+524;9;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;99.8;95.46;20.1;4.97;4.75;;;-4.34;;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;95.46;1
+525;2;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;99.8;94.77;20.45;4.88;4.63;;;-5.03;;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;94.77;5
+526;10;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;67.3;65.78;13.05;5.16;5.04;;;-1.52;;Aprobado;Manchas;Frecuente;1;1;2;Frecuente;0;1;0;0;0;0;0.0;65.78;0
+527;8;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;41.1;37.07;8.1;5.07;4.58;;;-4.03;;Aprobado;Manchas;Frecuente;1;1;2;Frecuente;0;1;0;0;0;0;0.0;37.07;1
+528;7;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;105.7;97.97;21.2;4.99;4.62;;;-7.73;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;97.97;0
+529;4;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;100.9;98.98;20.6;4.9;4.8;;;-1.92;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;98.98;0
+530;3;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;106.3;106.28;22.15;4.8;4.8;;;-0.02;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;106.28;1
+531;1;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;100.2;96.8;20.0;5.01;4.84;;;-3.4;;Aprobado;Idos, Sucio;Puntual;1;2;3;Puntual combinado;1;0;0;0;1;0;0.0;96.8;1
+532;5;2025-12-09;2025-12-09;2025-12;Universal;Blanco;Por Metro;0.0;99.8;94.57;19.65;5.08;4.81;;;-5.23;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;94.57;1
+533;1;2025-12-09;2025-12-09;2025-12;Universal;Marrón;Por Metro;0.0;51.2;48.91;10.85;4.72;4.51;;;-2.29;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;48.91;0
+534;2;2025-12-09;2025-12-09;2025-12;Universal;Verde Botella;Por Kg;10.8;0.0;46.79;10.4;4.33;4.5;0.17;3.93;;-0.4;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;46.79;0
+535;1;2025-12-09;2025-12-09;2025-12;Universal;Verde Botella;Por Metro;0.0;40.0;37.3;8.26;4.84;4.52;;;-2.7;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;37.3;0
+536;1;2025-12-09;2025-12-09;2025-12;Novak Repel;Negro;Por Metro;0.0;40.0;37.75;8.55;4.68;4.42;;;-2.25;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;37.75;0
+537;1;2025-12-09;2025-12-09;2025-12;Novak Repel;Azul Marino;Por Metro;0.0;40.0;38.59;8.4;4.76;4.59;;;-1.41;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;38.59;0
+538;1;2025-12-09;2025-12-09;2025-12;Novak Repel;Gris;Por Metro;0.0;40.0;39.84;9.05;4.42;4.4;;;-0.16;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;39.84;0
+539;1;2025-12-09;2025-12-09;2025-12;Novak Repel;Blanco;Por Metro;0.0;40.0;39.43;9.15;4.37;4.31;;;-0.57;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;39.43;0
+540;4;2025-12-09;2025-12-09;2025-12;Bahía;Negro;Por Metro;0.0;60.0;57.0;20.95;2.86;2.72;;;-3.0;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.0;0
+541;3;2025-12-09;2025-12-09;2025-12;Bahía;Negro;Por Metro;0.0;59.0;55.88;17.4;3.39;3.21;;;-3.12;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.88;0
+542;5;2025-12-09;2025-12-09;2025-12;Bahía;Negro;Por Metro;0.0;60.0;56.2;17.65;3.4;3.18;;;-3.8;;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;56.2;1
+543;6;2025-12-09;2025-12-09;2025-12;Bahía;Negro;Por Metro;0.0;28.0;27.21;9.8;2.86;2.78;;;-0.79;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;27.21;0
+544;1;2025-12-09;2025-12-09;2025-12;Bahía;Negro;Por Metro;0.0;60.0;56.35;20.05;2.99;2.81;;;-3.65;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.35;0
+545;2;2025-12-09;2025-12-09;2025-12;Bahía;Negro;Por Metro;0.0;38.7;35.68;12.35;3.13;2.89;;;-3.02;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;35.68;0
+546;2;2025-12-09;2025-12-09;2025-12;Bahía;Azul Marino;Por Metro;0.0;70.0;69.44;23.8;2.94;2.92;;;-0.56;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;69.44;0
+547;3;2025-12-09;2025-12-09;2025-12;Bahía;Azul Marino;Sin referencia;0.0;0.0;64.06;22.75;0.0;2.82;;;;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;64.06;0
+548;1;2025-12-09;2025-12-09;2025-12;Bahía;Azul Marino;Por Metro;0.0;49.6;45.26;16.1;3.08;2.81;;;-4.34;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;45.26;1
+549;2;2025-12-09;2025-12-09;2025-12;Viori Repel;Negro;Por Metro;0.0;50.0;42.72;9.5;5.26;4.5;;;-7.28;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;42.72;0
+550;1;2025-12-09;2025-12-09;2025-12;Viori Repel;Negro;Por Metro;0.0;41.0;41.0;6.9;5.94;5.94;;;0.0;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;41.0;0
+551;1;2025-12-09;2025-12-09;2025-12;Viori Repel;Azul Cielo;Por Metro;0.0;23.0;21.71;4.4;5.23;4.93;;;-1.29;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;21.71;1
+552;1;2025-12-09;2025-12-09;2025-12;Viori Repel;Verde Militar;Por Metro;0.0;20.0;17.47;3.37;5.93;5.18;;;-2.53;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;17.47;1
+553;1;2025-12-09;2025-12-09;2025-12;Viori Repel;Vinotinto;Por Metro;0.0;20.0;12.58;4.05;4.94;3.11;;;-7.42;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;12.58;1
+554;6;2025-12-10;2025-12-10;2025-12;Universal;Blanco;Por Metro;0.0;99.8;94.81;20.55;4.86;4.61;;;-4.99;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;94.81;0
+555;1;2025-12-10;2025-12-10;2025-12;Novaktex Repel;Gris Oscuro;Por Metro;0.0;68.0;64.34;13.8;4.93;4.66;;;-3.66;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;64.34;0
+556;2;2025-12-10;2025-12-10;2025-12;Novaktex Repel;Gris Oscuro;Por Metro;0.0;150.0;119.55;26.85;5.59;4.45;;;-30.45;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;119.55;1
+557;1;2025-12-10;2025-12-10;2025-12;Novaktex Repel;Verde Militar;Por Metro;0.0;105.0;99.77;21.7;4.84;4.6;;;-5.23;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;99.77;2
+558;1;2025-12-10;2025-12-10;2025-12;Novaktex Repel;Azul Marino;Por Metro;0.0;109.0;98.81;22.9;4.76;4.31;;;-10.19;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;98.81;1
+559;1;2025-12-10;2025-12-10;2025-12;Novaktex Repel;Negro;Por Metro;0.0;160.0;141.76;31.35;5.1;4.52;;;-18.24;;Aprobado;Empates;Puntual;1;1;1;Puntual simple;0;0;0;0;0;1;0.0;141.76;1
+560;2;2025-12-10;2025-12-10;2025-12;Novaktex Repel;Negro;Por Metro;0.0;52.0;46.22;10.15;5.12;4.55;;;-5.78;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;46.22;0
+561;3;2025-12-10;2025-12-10;2025-12;Novaktex Repel;Negro;Por Metro;0.0;39.0;36.79;8.1;4.81;4.54;;;-2.21;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;36.79;0
+562;1;2025-12-10;2025-12-10;2025-12;Novaktex Repel;Kaki;Sin referencia;0.0;0.0;93.93;21.5;0.0;4.37;;;;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;93.93;1
+563;1;2025-12-10;2025-12-10;2025-12;Bahía;Verde Militar;Por Metro;0.0;49.6;47.3;17.25;2.88;2.74;;;-2.3;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;47.3;0
+564;2;2025-12-10;2025-12-10;2025-12;Bahía;Verde Militar;Por Metro;0.0;49.6;47.58;17.0;2.92;2.8;;;-2.02;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;47.58;0
+565;3;2025-12-10;2025-12-10;2025-12;Bahía;Verde Militar;Por Metro;0.0;21.0;20.93;7.15;2.94;2.93;;;-0.07;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;20.93;0
+566;4;2025-12-10;2025-12-10;2025-12;Bahía;Verde Militar;Por Metro;0.0;32.4;31.62;11.6;2.79;2.73;;;-0.78;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;31.62;0
+567;5;2025-12-10;2025-12-10;2025-12;Bahía;Verde Militar;Por Metro;0.0;39.2;37.12;13.4;2.93;2.77;;;-2.08;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;37.12;0
+568;1;2025-12-10;2025-12-10;2025-12;Bahía;Verde;Por Metro;0.0;57.5;53.95;20.2;2.85;2.67;;;-3.55;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;53.95;0
+569;2;2025-12-10;2025-12-10;2025-12;Bahía;Verde;Por Metro;0.0;32.0;30.75;10.95;2.92;2.81;;;-1.25;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;30.75;1
+570;3;2025-12-10;2025-12-10;2025-12;Bahía;Verde;Por Metro;0.0;31.0;30.67;11.5;2.7;2.67;;;-0.33;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;30.67;0
+571;1;2025-12-10;2025-12-10;2025-12;Bahía;Kaki;Por Metro;0.0;39.2;39.2;13.25;2.96;2.96;;;0.0;;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;39.2;0
+572;5;2025-12-10;2025-12-10;2025-12;Bahía;Kaki;Por Metro;0.0;69.9;65.41;23.0;3.04;2.84;;;-4.49;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;65.41;0
+573;4;2025-12-10;2025-12-10;2025-12;Bahía;Kaki;Por Metro;0.0;56.4;51.3;19.95;2.83;2.57;;;-5.1;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.3;0
+574;6;2025-12-10;2025-12-10;2025-12;Bahía;Kaki;Por Metro;0.0;26.0;25.39;9.0;2.89;2.82;;;-0.61;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;25.39;0
+575;3;2025-12-10;2025-12-10;2025-12;Bahía;Kaki;Por Metro;0.0;37.0;35.48;12.85;2.88;2.76;;;-1.52;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;35.48;0
+576;2;2025-12-10;2025-12-10;2025-12;Bahía;Kaki;Por Metro;0.0;69.8;66.0;23.35;2.99;2.83;;;-3.8;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;66.0;0
+577;1;2026-03-13;2026-03-13;2026-03;Jabón;Rojo;Por Kg;10.9;0.0;35.68;11.14;3.27;3.2;-0.07;-2.14;;0.24;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;35.68;4
+578;3;2026-03-13;2026-03-13;2026-03;Jabón;Amarillo Neón;Por Kg;24.8;0.0;80.05;26.06;3.23;3.07;-0.16;-4.95;;1.26;Rechazado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;80.05;11
+579;1;2026-03-13;2026-03-13;2026-03;Jabón;Aguamarine;Por Kg;13.4;0.0;43.45;13.5;3.24;3.22;-0.02;-0.62;;0.1;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;43.45;4
+580;1;2026-03-13;2026-03-13;2026-03;Jabón;Lavanda;Por Kg;15.6;0.0;52.41;15.82;3.36;3.31;-0.05;-1.49;;0.22;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;52.41;4
+581;3;2026-03-13;2026-03-13;2026-03;Jabón;Verde Militar;Por Kg;31.2;0.0;100.02;31.64;3.21;3.16;-0.05;-1.56;;0.44;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;100.02;14
+582;2;2026-03-13;2026-03-13;2026-03;Jabón;Amarillo Neón;Por Kg;29.4;0.0;91.74;28.78;3.12;3.19;0.07;2.24;;-0.62;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;91.74;5
+583;1;2026-03-13;2026-03-13;2026-03;Jabón;Azul Marino;Por Kg;31.1;0.0;102.12;31.38;3.28;3.25;-0.03;-0.91;;0.28;Aprobado;Idos, Manchas, Huecos;Frecuente;1;3;4;Crítico;1;1;1;0;0;0;0.0;102.12;6
+584;2;2026-03-13;2026-03-13;2026-03;Jabón;Verde Militar;Por Kg;30.0;0.0;101.88;30.2;3.4;3.37;-0.03;-0.88;;0.2;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;101.88;4
+585;1;2026-03-13;2026-03-13;2026-03;Jabón;Azul Rey;Por Kg;29.6;0.0;102.1;29.74;3.45;3.43;-0.02;-0.58;;0.14;Aprobado;Idos, Manchas, Huecos, Marcas de Agua;Frecuente;1;4;4;Crítico;1;1;1;1;0;0;0.0;102.1;2
+586;1;2026-03-13;2026-03-13;2026-03;Jabón;Verde Militar;Por Kg;30.5;0.0;99.45;30.64;3.26;3.25;-0.01;-0.31;;0.14;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;99.45;2
+587;1;2026-03-13;2026-03-13;2026-03;Jabón;Amarillo Neón;Por Kg;28.7;0.0;104.96;28.0;3.66;3.75;0.09;2.46;;-0.7;Rechazado;Manchas;Frecuente;1;1;2;Frecuente;0;1;0;0;0;0;0.0;104.96;2
+588;8;2026-03-13;2026-03-13;2026-03;Jabón;Azul Rey;Por Kg;19.7;0.0;63.79;19.39;3.24;3.29;0.05;1.54;;-0.31;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;63.79;10
+589;9;2026-03-13;2026-03-13;2026-03;Jabón;Azul Rey;Por Kg;12.0;0.0;39.58;12.16;3.3;3.25;-0.05;-1.52;;0.16;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;39.58;3
+590;5;2026-03-13;2026-03-13;2026-03;Jabón;Azul Marino;Por Kg;6.3;0.0;19.99;6.5;3.17;3.08;-0.09;-2.84;;0.2;Aprobado;Idos, Manchas;Puntual;1;2;3;Puntual combinado;1;1;0;0;0;0;0.0;19.99;2
+591;6;2026-03-13;2026-03-13;2026-03;Jabón;Azul Rey;Por Kg;19.8;0.0;68.48;19.98;3.46;3.43;-0.03;-0.87;;0.18;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;68.48;4
+592;4;2026-03-13;2026-03-13;2026-03;Jabón;Azul Rey;Por Kg;21.6;0.0;72.45;21.74;3.35;3.33;-0.02;-0.6;;0.14;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;72.45;7
+593;7;2026-03-13;2026-03-13;2026-03;Jabón;Azul Rey;Por Kg;19.9;0.0;68.19;20.16;3.43;3.38;-0.05;-1.46;;0.26;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;68.19;7
+594;5;2026-03-13;2026-03-13;2026-03;Jabón;Azul Rey;Por Kg;21.2;0.0;70.45;21.14;3.32;3.33;0.01;0.3;;-0.06;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;70.45;4
+595;4;2026-03-13;2026-03-13;2026-03;Jabón;Azul Marino;Por Kg;12.3;0.0;41.48;12.38;3.37;3.35;-0.02;-0.59;;0.08;Rechazado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;41.48;2
+596;6;2026-03-13;2026-03-13;2026-03;Jabón;Negro;Por Kg;7.7;0.0;24.95;8.04;3.24;3.1;-0.14;-4.32;;0.34;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;24.95;0
+597;4;2026-03-13;2026-03-13;2026-03;Jabón;Negro;Por Kg;28.7;0.0;97.29;29.12;3.39;3.34;-0.05;-1.47;;0.42;Aprobado;Idos, Manchas, Marcas de Agua;Frecuente;1;3;4;Crítico;1;1;0;1;0;0;0.0;97.29;3
+598;3;2026-03-13;2026-03-13;2026-03;Jabón;Azul Rey;Por Kg;30.0;0.0;99.92;30.2;3.33;3.31;-0.02;-0.6;;0.2;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;99.92;7
+599;5;2026-03-13;2026-03-13;2026-03;Jabón;Negro;Por Kg;28.6;0.0;98.57;28.86;3.45;3.42;-0.03;-0.87;;0.26;Aprobado;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;98.57;3
+600;3;2026-03-13;2026-03-13;2026-03;Jabón;Azul Marino;Por Kg;24.8;0.0;80.3;25.02;3.24;3.21;-0.03;-0.93;;0.22;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;80.3;5
+601;3;2026-03-13;2026-03-13;2026-03;Jabón;Negro;Por Kg;28.5;0.0;96.04;29.2;3.37;3.29;-0.08;-2.37;;0.7;Aprobado con Desviación;Idos, Manchas, Marcas de Agua;Frecuente;1;3;4;Crítico;1;1;0;1;0;0;0.0;96.04;15
+602;1;2026-03-13;2026-03-13;2026-03;Jabón;Negro;Por Kg;31.6;0.0;97.01;31.08;3.07;3.12;0.05;1.63;;-0.52;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;97.01;0
+603;2;2026-03-13;2026-03-13;2026-03;Jabón;Negro;Por Kg;29.8;0.0;96.71;29.9;3.25;3.23;-0.02;-0.62;;0.1;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;96.71;2
+604;2;2026-03-13;2026-03-13;2026-03;Jabón;Azul Marino;Por Kg;32.9;0.0;107.72;33.2;3.27;3.24;-0.03;-0.92;;0.3;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;107.72;7
+605;2;2026-03-13;2026-03-13;2026-03;Jabón;Azul Rey;Por Kg;29.7;0.0;100.12;29.92;3.37;3.35;-0.02;-0.59;;0.22;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;100.12;4
+606;19;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;7.3;0.0;27.24;7.6;3.73;3.58;-0.15;-4.02;;0.3;Aprobado con Desviación;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;27.24;0
+607;30;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;6.6;0.0;23.28;6.6;3.53;3.53;0.0;0.0;;0.0;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;23.28;0
+608;18;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;10.9;0.0;34.47;10.88;3.16;3.17;0.01;0.32;;-0.02;Rechazado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;34.47;0
+609;26;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;8.7;0.0;31.94;8.7;3.67;3.67;0.0;0.0;;0.0;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;31.94;1
+610;28;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;7.9;0.0;27.03;8.3;3.42;3.26;-0.16;-4.68;;0.4;Aprobado;Idos, Manchas;Puntual;1;2;3;Puntual combinado;1;1;0;0;0;0;0.0;27.03;3
+611;29;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;6.9;0.0;22.2;7.22;3.22;3.07;-0.15;-4.66;;0.32;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;22.2;2
+612;9;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;29.9;0.0;99.55;30.42;3.33;3.27;-0.06;-1.8;;0.52;Aprobado con Desviación;Idos, Manchas, Sucio;Frecuente;1;3;4;Crítico;1;1;0;0;1;0;0.0;99.55;8
+613;10;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;30.9;0.0;99.79;30.58;3.23;3.26;0.03;0.93;;-0.32;Aprobado con Desviación;Manchas, Sucio;Frecuente;1;2;4;Crítico;0;1;0;0;1;0;0.0;99.79;3
+614;3;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;30.9;0.0;100.63;31.45;3.26;3.2;-0.06;-1.84;;0.55;Aprobado con Desviación;Idos, Manchas, Sucio;Frecuente;1;3;4;Crítico;1;1;0;0;1;0;0.0;100.63;7
+615;11;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;30.4;0.0;99.45;30.4;3.27;3.27;0.0;0.0;;0.0;Aprobado con Desviación;Idos, Manchas, Huecos;Frecuente;1;3;4;Crítico;1;1;1;0;0;0;0.0;99.45;4
+616;7;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;30.9;0.0;99.57;31.26;3.22;3.19;-0.03;-0.93;;0.36;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;99.57;11
+617;14;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;21.6;0.0;76.83;21.98;3.56;3.5;-0.06;-1.69;;0.38;Aprobado con Desviación;Idos, Manchas, Sucio;Frecuente;1;3;4;Crítico;1;1;0;0;1;0;0.0;76.83;5
+618;5;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;27.8;0.0;89.71;27.72;3.23;3.24;0.01;0.31;;-0.08;Aprobado con Desviación;Idos, Sucio;Puntual;1;2;3;Puntual combinado;1;0;0;0;1;0;0.0;89.71;2
+619;2;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;30.9;0.0;98.78;30.82;3.2;3.21;0.01;0.31;;-0.08;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;98.78;9
+620;6;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;30.9;0.0;100.35;31.16;3.25;3.22;-0.03;-0.92;;0.26;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;100.35;5
+621;13;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;19.8;0.0;72.86;20.1;3.68;3.62;-0.06;-1.63;;0.3;Aprobado con Desviación;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;72.86;1
+622;20;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;14.0;0.0;49.32;15.32;3.52;3.22;-0.3;-8.52;;1.32;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;49.32;4
+623;12;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;31.4;0.0;100.18;31.76;3.19;3.15;-0.04;-1.25;;0.36;Aprobado con Desviación;Idos, Manchas, Sucio;Frecuente;1;3;4;Crítico;1;1;0;0;1;0;0.0;100.18;19
+624;16;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;19.4;0.0;69.86;19.66;3.6;3.55;-0.05;-1.39;;0.26;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;69.86;3
+625;15;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;24.8;0.0;92.26;25.18;3.72;3.66;-0.06;-1.61;;0.38;Aprobado con Desviación;Manchas;Frecuente;1;1;2;Frecuente;0;1;0;0;0;0;0.0;92.26;3
+626;17;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;19.3;0.0;66.12;19.6;3.43;3.37;-0.06;-1.75;;0.3;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;66.12;6
+627;8;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;32.48;0.0;114.37;32.8;3.52;3.49;-0.03;-0.85;;0.32;Aprobado con Desviación;Idos, Manchas, Huecos;Frecuente;1;3;4;Crítico;1;1;1;0;0;0;0.0;114.37;20
+628;1;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;32.8;0.0;116.02;32.62;3.54;3.56;0.02;0.56;;-0.18;Aprobado con Desviación;Manchas, Sucio;Frecuente;1;2;4;Crítico;0;1;0;0;1;0;0.0;116.02;4
+629;4;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;30.9;0.0;101.2;31.22;3.28;3.24;-0.04;-1.22;;0.32;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;101.2;7
+630;27;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;9.4;0.0;33.6;9.44;3.57;3.56;-0.01;-0.28;;0.04;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;33.6;5
+631;28;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;11.9;0.0;38.98;12.2;3.28;3.2;-0.08;-2.44;;0.3;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;38.98;11
+632;25;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;13.14;0.0;44.14;13.7;3.36;3.22;-0.14;-4.17;;0.56;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;44.14;5
+633;22;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;13.9;0.0;48.19;14.1;3.47;3.42;-0.05;-1.44;;0.2;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;48.19;7
+634;21;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;16.9;0.0;60.52;16.7;3.58;3.62;0.04;1.12;;-0.2;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;60.52;3
+635;23;2026-03-13;2026-03-13;2026-03;Jabón;Blanco;Por Kg;10.8;0.0;39.41;10.8;3.65;3.65;0.0;0.0;;0.0;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;39.41;7
+636;11;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;18.6;0.0;55.68;16.38;2.99;3.4;0.41;13.71;;-2.22;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;55.68;8
+637;12;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;16.3;0.0;55.43;16.46;3.4;3.37;-0.03;-0.88;;0.16;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;55.43;2
+638;10;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;19.6;0.0;64.99;19.46;3.32;3.34;0.02;0.6;;-0.14;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;64.99;7
+639;9;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;27.3;0.0;90.39;27.08;3.31;3.34;0.03;0.91;;-0.22;Rechazado;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;90.39;11
+640;8;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;28.3;0.0;96.38;28.22;3.41;3.42;0.01;0.29;;-0.08;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;96.38;14
+641;7;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;28.0;0.0;91.95;27.88;3.28;3.3;0.02;0.61;;-0.12;Rechazado;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;91.95;5
+642;5;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;27.5;0.0;92.7;27.8;3.37;3.33;-0.04;-1.19;;0.3;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;92.7;4
+643;3;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;29.0;0.0;93.37;29.12;3.22;3.21;-0.01;-0.31;;0.12;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;93.37;4
+644;4;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;28.2;0.0;90.18;27.68;3.2;3.26;0.06;1.88;;-0.52;Aprobado;Idos, Manchas, Huecos;Frecuente;1;3;4;Crítico;1;1;1;0;0;0;0.0;90.18;7
+645;6;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;27.2;0.0;90.98;27.48;3.34;3.31;-0.03;-0.9;;0.28;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;90.98;11
+646;2;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;29.8;0.0;102.99;30.14;3.46;3.42;-0.04;-1.16;;0.34;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;102.99;3
+647;1;2026-03-23;2026-03-23;2026-03;Jabón;Lila;Por Kg;30.3;0.0;94.73;30.14;3.13;3.14;0.01;0.32;;-0.16;Aprobado;Idos, Manchas;Puntual;1;2;3;Puntual combinado;1;1;0;0;0;0;0.0;94.73;2
+648;1;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;9.9;0.0;35.98;10.56;3.63;3.41;-0.22;-6.06;;0.66;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;35.98;2
+649;2;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;10.6;0.0;34.09;10.48;3.22;3.25;0.03;0.93;;-0.12;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;34.09;0
+650;2;2026-04-13;2026-04-13;2026-04;Jabón;Rosado Pastel;Por Kg;13.5;0.0;46.86;13.52;3.47;3.47;0.0;0.0;;0.02;Rechazado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;46.86;3
+651;5;2026-04-13;2026-04-13;2026-04;Jabón;Rojo;Por Kg;17.0;0.0;54.87;17.2;3.23;3.19;-0.04;-1.24;;0.2;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;54.87;5
+652;4;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;11.2;0.0;40.84;12.4;3.65;3.29;-0.36;-9.86;;1.2;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;40.84;1
+653;1;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;7.8;0.0;25.6;8.06;3.28;3.18;-0.1;-3.05;;0.26;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;25.6;0
+654;1;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;6.7;0.0;21.98;6.82;3.28;3.22;-0.06;-1.83;;0.12;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;21.98;1
+655;1;2026-04-13;2026-04-13;2026-04;Jabón;Verde Militar;Por Kg;29.9;0.0;97.78;31.1;3.27;3.14;-0.13;-3.98;;1.2;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;97.78;13
+656;5;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;9.3;0.0;31.65;9.82;3.4;3.22;-0.18;-5.29;;0.52;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;31.65;2
+657;5;2026-04-13;2026-04-13;2026-04;Jabón;Amarillo Neón;Por Kg;29.2;0.0;95.53;29.46;3.27;3.24;-0.03;-0.92;;0.26;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;95.53;3
+658;2;2026-04-13;2026-04-13;2026-04;Jabón;Rojo;Por Kg;10.3;0.0;33.6;10.58;3.26;3.18;-0.08;-2.45;;0.28;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;33.6;1
+659;1;2026-04-13;2026-04-13;2026-04;Jabón;Rojo;Por Kg;7.3;0.0;25.14;7.98;3.44;3.15;-0.29;-8.43;;0.68;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;25.14;1
+660;1;2026-04-13;2026-04-13;2026-04;Jabón;Azul Rey;Por Kg;9.2;0.0;30.87;9.5;3.36;3.25;-0.11;-3.27;;0.3;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;30.87;1
+661;3;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;9.3;0.0;27.63;8.88;2.97;3.11;0.14;4.71;;-0.42;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;27.63;2
+662;6;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;20.45;0.0;67.16;20.38;3.28;3.3;0.02;0.61;;-0.07;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;67.16;7
+663;11;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;17.2;0.0;58.9;18.2;3.42;3.24;-0.18;-5.26;;1.0;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;58.9;4
+664;5;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;17.2;0.0;58.62;17.48;3.41;3.35;-0.06;-1.76;;0.28;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.62;2
+665;1;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;30.5;0.0;99.48;30.74;3.26;3.24;-0.02;-0.61;;0.24;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;99.48;4
+666;2;2026-04-13;2026-04-13;2026-04;Jabón;Azul Rey;Por Kg;17.0;0.0;57.58;17.2;3.39;3.35;-0.04;-1.18;;0.2;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;57.58;5
+667;3;2026-04-13;2026-04-13;2026-04;Jabón;Rojo;Por Kg;23.4;0.0;77.61;24.14;3.32;3.21;-0.11;-3.31;;0.74;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;77.61;3
+668;3;2026-04-13;2026-04-13;2026-04;Jabón;Aguamarine;Por Kg;14.5;0.0;44.45;14.6;3.07;3.04;-0.03;-0.98;;0.1;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;44.45;5
+669;12;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;29.7;0.0;95.53;29.82;3.22;3.2;-0.02;-0.62;;0.12;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;95.53;4
+670;4;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;16.4;0.0;55.7;16.72;3.4;3.33;-0.07;-2.06;;0.32;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;55.7;7
+671;4;2026-04-13;2026-04-13;2026-04;Jabón;Rojo;Por Kg;13.7;0.0;42.19;14.0;3.08;3.01;-0.07;-2.27;;0.3;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;42.19;5
+672;3;2026-04-13;2026-04-13;2026-04;Jabón;Azul Rey;Por Kg;14.49;0.0;48.33;14.7;3.34;3.29;-0.05;-1.5;;0.21;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;48.33;3
+673;2;2026-04-13;2026-04-13;2026-04;Jabón;Aguamarine;Por Kg;11.6;0.0;38.66;11.96;3.33;3.23;-0.1;-3.0;;0.36;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;38.66;2
+674;4;2026-04-13;2026-04-13;2026-04;Jabón;Azul Rey;Por Kg;13.1;0.0;44.45;13.32;3.39;3.34;-0.05;-1.47;;0.22;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;44.45;3
+675;3;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;13.6;0.0;45.83;13.62;3.37;3.36;-0.01;-0.3;;0.02;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;45.83;4
+676;4;2026-04-13;2026-04-13;2026-04;Jabón;Amarillo Neón;Por Kg;22.5;0.0;77.93;22.62;3.46;3.45;-0.01;-0.29;;0.12;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;77.93;7
+677;9;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;28.0;0.0;94.55;28.46;3.38;3.32;-0.06;-1.78;;0.46;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;94.55;1
+678;2;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;9.0;0.0;30.8;9.64;3.42;3.2;-0.22;-6.43;;0.64;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;30.8;0
+679;7;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;13.3;0.0;41.75;13.54;3.14;3.08;-0.06;-1.91;;0.24;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;41.75;2
+680;2;2026-04-13;2026-04-13;2026-04;Jabón;Verde Militar;Por Kg;31.4;0.0;100.71;31.6;3.21;3.19;-0.02;-0.62;;0.2;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;100.71;1
+681;3;2026-04-13;2026-04-13;2026-04;Jabón;Rosado Pastel;Por Kg;23.0;0.0;78.77;23.2;3.42;3.4;-0.02;-0.58;;0.2;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;78.77;8
+682;8;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;11.8;0.0;38.97;11.78;3.3;3.31;0.01;0.3;;-0.02;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;38.97;2
+683;7;2026-04-13;2026-04-13;2026-04;Jabón;Amarillo Neón;Por Kg;29.65;0.0;92.41;29.78;3.12;3.1;-0.02;-0.64;;0.13;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;92.41;7
+684;5;2026-04-13;2026-04-13;2026-04;Jabón;Aguamarine;Por Kg;31.0;0.0;99.38;31.46;3.21;3.16;-0.05;-1.56;;0.46;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;99.38;5
+685;6;2026-04-13;2026-04-13;2026-04;Jabón;Amarillo Neón;Por Kg;26.7;0.0;87.51;26.96;3.28;3.25;-0.03;-0.91;;0.26;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;87.51;1
+686;1;2026-04-13;2026-04-13;2026-04;Jabón;Rosado Pastel;Por Kg;30.6;0.0;103.87;31.1;3.39;3.34;-0.05;-1.47;;0.5;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;103.87;6
+687;4;2026-04-13;2026-04-13;2026-04;Jabón;Aguamarine;Por Kg;31.0;0.0;101.97;32.18;3.29;3.17;-0.12;-3.65;;1.18;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;101.97;10
+688;8;2026-04-13;2026-04-13;2026-04;Jabón;Amarillo Neón;Por Kg;26.9;0.0;89.05;27.06;3.31;3.29;-0.02;-0.6;;0.16;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;89.05;3
+689;7;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;29.4;0.0;97.08;29.74;3.3;3.26;-0.04;-1.21;;0.34;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;97.08;5
+690;7;2026-04-13;2026-04-13;2026-04;Jabón;Aguamarine;Por Kg;21.2;0.0;70.49;21.72;3.33;3.25;-0.08;-2.4;;0.52;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;70.49;4
+691;8;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;26.4;0.0;86.31;26.82;3.27;3.22;-0.05;-1.53;;0.42;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;86.31;2
+692;5;2026-04-13;2026-04-13;2026-04;Jabón;Azul Rey;Por Kg;24.0;0.0;81.43;24.16;3.39;3.37;-0.02;-0.59;;0.16;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;81.43;2
+693;6;2026-04-13;2026-04-13;2026-04;Jabón;Aguamarine;Por Kg;31.2;0.0;102.29;31.72;3.28;3.22;-0.06;-1.83;;0.52;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;102.29;1
+694;8;2026-04-13;2026-04-13;2026-04;Jabón;Aguamarine;Por Kg;30.3;0.0;96.68;30.62;3.19;3.16;-0.03;-0.94;;0.32;Aprobado con Desviación;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;96.68;12
+695;9;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;28.9;0.0;99.99;29.26;3.46;3.42;-0.04;-1.16;;0.36;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;99.99;4
+696;7;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;23.8;0.0;80.52;24.0;3.38;3.36;-0.02;-0.59;;0.2;Rechazado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;80.52;3
+697;9;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;31.1;0.0;101.64;31.16;3.27;3.26;-0.01;-0.31;;0.06;Aprobado;Idos, Huecos, Marcas de Agua;Puntual;1;3;3;Puntual combinado;1;0;1;1;0;0;0.0;101.64;2
+698;12;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;18.7;0.0;63.67;19.2;3.4;3.32;-0.08;-2.35;;0.5;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;63.67;11
+699;10;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;31.0;0.0;99.63;31.42;3.21;3.17;-0.04;-1.25;;0.42;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;99.63;1
+700;1;2026-04-13;2026-04-13;2026-04;Jabón;Gris Claro;Por Kg;26.4;0.0;82.68;25.88;3.13;3.19;0.06;1.92;;-0.52;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;82.68;2
+701;6;2026-04-13;2026-04-13;2026-04;Jabón;Rojo;Por Kg;29.8;0.0;93.75;30.0;3.15;3.13;-0.02;-0.63;;0.2;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;93.75;5
+702;10;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;29.1;0.0;99.87;29.6;3.43;3.37;-0.06;-1.75;;0.5;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;99.87;3
+703;8;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;28.0;0.0;93.69;28.56;3.35;3.28;-0.07;-2.09;;0.56;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;93.69;2
+704;11;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;25.8;0.0;81.49;26.2;3.16;3.11;-0.05;-1.58;;0.4;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;81.49;1
+705;10;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;21.4;0.0;70.12;21.44;3.28;3.27;-0.01;-0.3;;0.04;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;70.12;2
+706;6;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;30.0;0.0;100.66;30.36;3.36;3.32;-0.04;-1.19;;0.36;Aprobado;Idos, Huecos;Puntual;1;2;3;Puntual combinado;1;0;1;0;0;0;0.0;100.66;2
+707;9;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;29.0;0.0;97.14;29.22;3.35;3.32;-0.03;-0.9;;0.22;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;97.14;4
+708;1;2026-04-13;2026-04-13;2026-04;Jabón;Purpura;Por Kg;21.0;0.0;66.08;20.84;3.15;3.17;0.02;0.63;;-0.16;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;66.08;6
+709;11;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;24.0;0.0;77.32;23.08;3.22;3.35;0.13;4.04;;-0.92;Rechazado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;77.32;6
+710;10;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;19.4;0.0;63.76;19.96;3.29;3.19;-0.1;-3.04;;0.56;Aprobado con Desviación;Idos, Huecos;Frecuente;1;2;4;Crítico;1;0;1;0;0;0;0.0;63.76;6
+711;1;2026-04-13;2026-04-13;2026-04;Jabón;Aguamarine;Por Kg;30.8;0.0;100.26;31.22;3.26;3.21;-0.05;-1.53;;0.42;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;100.26;5
+712;8;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;29.5;0.0;99.59;29.62;3.38;3.36;-0.02;-0.59;;0.12;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;99.59;0
+713;5;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;30.1;0.0;100.87;30.38;3.35;3.32;-0.03;-0.9;;0.28;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;100.87;2
+714;4;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;30.6;0.0;98.58;30.44;3.22;3.24;0.02;0.62;;-0.16;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;98.58;5
+715;5;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;31.5;0.0;100.52;31.56;3.19;3.19;0.0;0.0;;0.06;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;100.52;2
+716;4;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;30.2;0.0;98.19;30.6;3.25;3.21;-0.04;-1.23;;0.4;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;98.19;0
+717;3;2026-04-13;2026-04-13;2026-04;Jabón;Amarillo Neón;Por Kg;23.3;0.0;73.02;23.52;3.13;3.1;-0.03;-0.96;;0.22;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;73.02;5
+718;2;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;28.1;0.0;93.75;28.36;3.34;3.31;-0.03;-0.9;;0.26;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;93.75;2
+719;3;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;28.2;0.0;92.71;28.52;3.29;3.25;-0.04;-1.22;;0.32;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;92.71;0
+720;1;2026-04-13;2026-04-13;2026-04;Jabón;Azul Marino;Por Kg;31.3;0.0;105.47;31.58;3.37;3.34;-0.03;-0.89;;0.28;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;105.47;3
+721;2;2026-04-13;2026-04-13;2026-04;Jabón;Amarillo Neón;Por Kg;29.0;0.0;92.63;29.12;3.19;3.18;-0.01;-0.31;;0.12;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;92.63;2
+722;7;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;30.2;0.0;90.11;30.64;2.98;2.94;-0.04;-1.34;;0.44;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;90.11;0
+723;3;2026-04-13;2026-04-13;2026-04;Jabón;Vinotinto;Por Kg;33.0;0.0;114.57;35.18;3.47;3.26;-0.21;-6.05;;2.18;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;114.57;0
+724;2;2026-04-13;2026-04-13;2026-04;Jabón;Lavanda;Por Kg;28.7;0.0;93.09;29.36;3.24;3.17;-0.07;-2.16;;0.66;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;93.09;6
+725;6;2026-04-13;2026-04-13;2026-04;Jabón;Negro;Por Kg;31.6;0.0;100.57;34.96;3.18;2.88;-0.3;-9.43;;3.36;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;100.57;0
+726;1;2026-04-13;2026-04-13;2026-04;Jabón;Amarillo Neón;Por Kg;27.5;0.0;87.12;27.52;3.17;3.17;0.0;0.0;;0.02;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;87.12;5
+727;1;2026-04-13;2026-04-13;2026-04;Jabón;Blanco;Por Kg;26.4;0.0;84.78;26.84;3.21;3.16;-0.05;-1.56;;0.44;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;84.78;0
+728;14;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;20.8;53.0;51.6;21.06;2.52;2.45;;;-1.4;0.26;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;51.6;0
+729;5;2026-04-13;2026-04-13;2026-04;Green Sport;Derejo;Por Kg;15.0;0.0;37.5;15.2;2.5;2.47;-0.03;-1.2;;0.2;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;37.5;0
+730;13;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.6;55.0;55.22;21.96;2.5;2.51;;;0.22;0.36;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;55.22;0
+731;15;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.0;54.0;50.54;21.6;2.5;2.34;;;-3.46;0.6;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;50.54;0
+732;12;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.2;54.0;53.03;23.2;2.33;2.29;;;-0.97;2.0;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;53.03;0
+733;8;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.3;55.0;51.53;21.5;2.56;2.4;;;-3.47;0.2;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;51.53;0
+734;11;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.0;54.0;50.33;20.64;2.62;2.44;;;-3.67;-0.36;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;50.33;0
+735;9;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;20.5;52.0;50.29;20.7;2.51;2.43;;;-1.71;0.2;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;50.29;0
+736;10;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.2;54.0;53.1;21.42;2.52;2.48;;;-0.9;0.22;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;53.1;0
+737;7;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.2;54.0;49.5;21.44;2.52;2.31;;;-4.5;0.24;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;49.5;0
+738;6;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.39;55.0;51.13;29.58;1.86;1.73;;;-3.87;8.19;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;51.13;0
+739;9;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;21.6;55.0;56.32;22.02;2.5;2.56;;;1.32;0.42;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;56.32;1
+740;4;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.1;54.0;52.0;21.48;2.51;2.42;;;-2.0;0.38;Aprobado;Huecos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;0;0;1;1;0;0;0.0;52.0;1
+741;10;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;21.6;55.0;55.61;21.8;2.52;2.55;;;0.61;0.2;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;55.61;2
+742;8;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;21.6;54.0;55.96;21.54;2.51;2.6;;;1.96;-0.06;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.96;0
+743;7;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;21.6;55.0;54.92;21.76;2.53;2.52;;;-0.08;0.16;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.92;0
+744;5;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;21.0;54.0;52.23;21.24;2.54;2.46;;;-1.77;0.24;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;52.23;0
+745;1;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;20.7;53.0;50.47;21.2;2.5;2.38;;;-2.53;0.5;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;50.47;1
+746;6;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;20.5;52.0;51.0;20.8;2.5;2.45;;;-1.0;0.3;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;51.0;0
+747;3;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;20.9;54.0;51.7;21.24;2.54;2.43;;;-2.3;0.34;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.7;0
+748;2;2026-04-13;2026-04-13;2026-04;Green Sport;True Blue;Mixta;20.9;54.0;51.53;21.26;2.54;2.42;;;-2.47;0.36;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;51.53;0
+749;2;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;20.7;53.0;53.89;20.98;2.53;2.57;;;0.89;0.28;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;53.89;0
+750;4;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;26.4;52.0;53.3;21.64;2.4;2.46;;;1.3;-4.76;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;53.3;0
+751;3;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;21.0;54.0;52.33;21.34;2.53;2.45;;;-1.67;0.34;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;52.33;0
+752;5;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;21.62;55.0;53.89;21.86;2.52;2.47;;;-1.11;0.24;Aprobado;Huecos;Puntual;1;1;1;Puntual simple;0;0;1;0;0;0;0.0;53.89;1
+753;1;2026-04-13;2026-04-13;2026-04;Green Sport;Negro;Mixta;22.0;57.0;56.19;22.46;2.54;2.5;;;-0.81;0.46;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.19;0
+754;3;2026-04-13;2026-04-13;2026-04;Green Sport;Derejo;Mixta;24.4;62.0;60.0;24.6;2.52;2.44;;;-2.0;0.2;Aprobado;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;60.0;2
+755;4;2026-04-13;2026-04-13;2026-04;Green Sport;Derejo;Mixta;24.4;62.0;61.18;24.66;2.51;2.48;;;-0.82;0.26;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;61.18;0
+756;2;2026-04-13;2026-04-13;2026-04;Green Sport;Derejo;Mixta;24.4;62.0;59.64;24.62;2.52;2.42;;;-2.36;0.22;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;59.64;0
+757;1;2026-04-13;2026-04-13;2026-04;Green Sport;Derejo;Mixta;24.3;62.0;56.1;24.56;2.52;2.28;;;-5.9;0.26;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.1;0
+758;4;2026-04-13;2026-04-13;2026-04;Bahía;Blanco;Por Metro;0.0;50.7;49.27;18.06;2.81;2.73;;;-1.43;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;49.27;0
+759;5;2026-04-13;2026-04-13;2026-04;Bahía;Blanco;Por Metro;0.0;50.5;46.97;16.08;3.14;2.92;;;-3.53;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;46.97;1
+760;2;2026-04-13;2026-04-13;2026-04;Bahía;Blanco;Por Metro;0.0;59.3;59.16;22.14;2.68;2.67;;;-0.14;;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;59.16;4
+761;3;2026-04-13;2026-04-13;2026-04;Bahía;Blanco;Por Metro;0.0;59.4;58.72;22.14;2.68;2.65;;;-0.68;;Aprobado;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;58.72;1
+762;1;2026-04-13;2026-04-13;2026-04;Bahía;Blanco;Por Metro;0.0;26.3;26.12;9.92;2.65;2.63;;;-0.18;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;26.12;0
+763;2;2026-04-13;2026-04-13;2026-04;Bahía;Verde Militar;Por Metro;0.0;32.4;31.05;10.6;3.06;2.93;;;-1.35;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;31.05;0
+764;1;2026-04-13;2026-04-13;2026-04;Bahía;Verde Militar;Por Metro;0.0;28.0;26.61;8.98;3.12;2.96;;;-1.39;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;26.61;0
+765;3;2026-04-13;2026-04-13;2026-04;Bahía;Verde Militar;Por Metro;0.0;44.1;45.6;14.8;2.98;3.08;;;1.5;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;45.6;0
+766;5;2026-04-13;2026-04-13;2026-04;Bahía;Morado;Por Metro;0.0;59.6;57.3;20.84;2.86;2.75;;;-2.3;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;57.3;0
+767;6;2026-04-13;2026-04-13;2026-04;Bahía;Morado;Por Metro;0.0;60.0;57.19;21.3;2.82;2.68;;;-2.81;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;57.19;0
+768;1;2026-04-13;2026-04-13;2026-04;Bahía;Azul Marino;Por Metro;0.0;50.0;48.14;15.62;3.2;3.08;;;-1.86;;Rechazado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;48.14;0
+769;2;2026-04-13;2026-04-13;2026-04;Bahía;Azul Marino;Por Metro;0.0;50.0;45.52;15.36;3.26;2.96;;;-4.48;;Rechazado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;45.52;0
+770;7;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;59.4;55.89;19.56;3.04;2.86;;;-3.51;;Aprobado;Idos, Marcas de Agua;Puntual;1;2;3;Puntual combinado;1;0;0;1;0;0;0.0;55.89;1
+771;8;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;59.8;57.34;20.1;2.98;2.85;;;-2.46;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;57.34;1
+772;9;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;59.4;54.83;18.62;3.19;2.94;;;-4.57;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;54.83;0
+773;10;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;49.4;54.97;19.38;2.55;2.84;;;5.57;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;54.97;0
+774;4;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;59.5;58.15;20.98;2.84;2.77;;;-1.35;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.15;0
+775;1;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;64.9;60.0;20.58;3.15;2.92;;;-4.9;;Aprobado;Idos, Huecos, Marcas de Agua;Frecuente;1;3;4;Crítico;1;0;1;1;0;0;0.0;60.0;3
+776;5;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;59.4;55.99;20.98;2.83;2.67;;;-3.41;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;55.99;0
+777;2;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;72.1;67.71;24.4;2.95;2.78;;;-4.39;;Aprobado;Idos, Huecos, Marcas de Agua;Frecuente;1;3;4;Crítico;1;0;1;1;0;0;0.0;67.71;5
+778;3;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;59.6;56.16;19.48;3.06;2.88;;;-3.44;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;56.16;0
+779;6;2026-04-13;2026-04-13;2026-04;Bahía;Negro;Por Metro;0.0;48.4;45.68;16.38;2.95;2.79;;;-2.72;;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;45.68;2
+780;3;2026-04-13;2026-04-13;2026-04;Bahía;Morado;Por Metro;0.0;50.0;47.75;17.88;2.8;2.67;;;-2.25;;Aprobado;Idos, Marcas de Agua;Frecuente;1;2;4;Crítico;1;0;0;1;0;0;0.0;47.75;5
+781;4;2026-04-13;2026-04-13;2026-04;Bahía;Morado;Por Metro;0.0;56.5;53.67;19.98;2.83;2.69;;;-2.83;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;53.67;0
+782;1;2026-04-13;2026-04-13;2026-04;Bahía;Morado;Por Metro;0.0;41.2;38.32;14.54;2.83;2.64;;;-2.88;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;38.32;0
+783;2;2026-04-13;2026-04-13;2026-04;Bahía;Morado;Por Metro;0.0;34.7;31.94;12.26;2.83;2.61;;;-2.76;;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;31.94;0
+784;10;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;21.3;55.0;55.45;21.56;2.55;2.57;;;0.45;0.26;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;55.45;4
+785;11;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;20.9;54.0;54.33;21.2;2.55;2.56;;;0.33;0.3;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;54.33;3
+786;12;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;19.3;49.0;49.95;19.56;2.51;2.55;;;0.95;0.26;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;49.95;1
+787;13;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;21.1;54.0;54.73;21.36;2.53;2.56;;;0.73;0.26;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;54.73;1
+788;8;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;20.0;51.0;52.34;20.26;2.52;2.58;;;1.34;0.26;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;52.34;0
+789;7;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;21.3;55.0;55.01;21.54;2.55;2.55;;;0.01;0.24;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.01;0
+790;9;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;20.9;54.0;53.96;21.18;2.55;2.55;;;-0.04;0.28;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;53.96;0
+791;6;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;21.7;56.0;55.33;22.0;2.55;2.52;;;-0.67;0.3;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.33;0
+792;2;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;21.7;56.0;56.2;21.96;2.55;2.56;;;0.2;0.26;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;56.2;0
+793;1;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;21.5;55.0;55.18;21.76;2.53;2.54;;;0.18;0.26;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;55.18;0
+794;5;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Mixta;21.5;55.0;55.17;21.58;2.55;2.56;;;0.17;0.08;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;55.17;0
+795;4;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Sin referencia;0.0;0.0;70.5;27.56;0.0;2.56;;;;;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;70.5;0
+796;3;2026-04-23;2026-04-23;2026-04;Green Sport;Negro;Por Kg;21.5;0.0;50.82;19.98;2.36;2.54;0.18;7.63;;-1.52;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;50.82;0
+797;4;2026-05-11;2026-05-11;2026-05;Bahamas;Blanco;Por Kg;18.52;0.0;58.42;18.56;3.15;3.15;0.0;0.0;;0.04;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;58.42;5
+798;1;2026-05-11;2026-05-11;2026-05;Bahamas;Blanco;Por Kg;18.15;0.0;57.38;18.34;3.16;3.13;-0.03;-0.95;;0.19;Aprobado;Idos, Manchas;Puntual;1;2;3;Puntual combinado;1;1;0;0;0;0;0.0;57.38;2
+799;3;2026-05-11;2026-05-11;2026-05;Bahamas;Blanco;Por Kg;18.05;0.0;58.02;18.3;3.21;3.17;-0.04;-1.25;;0.25;Aprobado;Idos, Huecos;Puntual;1;2;3;Puntual combinado;1;0;1;0;0;0;0.0;58.02;2
+800;2;2026-05-11;2026-05-11;2026-05;Bahamas;Blanco;Por Kg;17.85;0.0;55.84;18.14;3.13;3.08;-0.05;-1.6;;0.29;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;55.84;8
+801;3;2026-05-12;2026-05-12;2026-05;Jabón;Lavanda;Por Kg;30.0;0.0;96.93;28.6;3.23;3.39;0.16;4.95;;-1.4;Aprobado con Desviación;Idos, Manchas, Empates, Marcas de Agua;Frecuente;1;4;4;Crítico;1;1;0;1;0;1;0.0;96.93;13
+802;1;2026-05-12;2026-05-12;2026-05;Jabón;Purpura;Por Kg;31.0;0.0;99.2;31.28;3.2;3.17;-0.03;-0.94;;0.28;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;99.2;9
+803;1;2026-05-12;2026-05-12;2026-05;Jabón;Rosado Pastel;Por Kg;31.3;0.0;102.64;31.4;3.28;3.27;-0.01;-0.3;;0.1;Aprobado con Desviación;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;102.64;4
+804;2;2026-05-12;2026-05-12;2026-05;Jabón;Rosado Pastel;Por Kg;29.3;0.0;97.96;29.84;3.34;3.28;-0.06;-1.8;;0.54;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;97.96;5
+805;2;2026-05-12;2026-05-12;2026-05;Jabón;Aguamarine;Por Kg;29.2;0.0;103.52;29.6;3.55;3.5;-0.05;-1.41;;0.4;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;103.52;3
+806;2;2026-05-12;2026-05-12;2026-05;Jabón;Lavanda;Por Kg;25.0;0.0;81.5;24.6;3.26;3.31;0.05;1.53;;-0.4;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;81.5;3
+807;3;2026-05-12;2026-05-12;2026-05;Jabón;Aguamarine;Por Kg;30.0;0.0;102.61;29.22;3.42;3.51;0.09;2.63;;-0.78;Aprobado con Desviación;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;102.61;2
+808;1;2026-05-12;2026-05-12;2026-05;Jabón;Aguamarine;Por Kg;29.4;0.0;101.48;29.88;3.45;3.4;-0.05;-1.45;;0.48;Aprobado;Idos;Puntual;1;1;1;Puntual simple;1;0;0;0;0;0;0.0;101.48;0
+809;2;2026-05-12;2026-05-12;2026-05;Jabón;Azul Marino;Por Kg;29.5;0.0;97.19;30.06;3.29;3.23;-0.06;-1.82;;0.56;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;97.19;3
+810;1;2026-05-12;2026-05-12;2026-05;Jabón;Lavanda;Por Kg;30.0;0.0;100.13;29.38;3.34;3.41;0.07;2.1;;-0.62;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;100.13;9
+811;4;2026-05-12;2026-05-12;2026-05;Jabón;Azul Rey;Por Kg;30.0;0.0;102.05;31.28;3.4;3.26;-0.14;-4.12;;1.28;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;102.05;3
+812;3;2026-05-12;2026-05-12;2026-05;Jabón;Azul Rey;Por Kg;23.8;0.0;81.29;24.58;3.42;3.31;-0.11;-3.22;;0.78;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;81.29;4
+813;1;2026-05-12;2026-05-12;2026-05;Jabón;Azul Rey;Por Kg;29.3;0.0;95.78;29.72;3.27;3.22;-0.05;-1.53;;0.42;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;95.78;0
+814;2;2026-05-12;2026-05-12;2026-05;Jabón;Azul Rey;Por Kg;29.6;0.0;97.33;31.12;3.29;3.13;-0.16;-4.86;;1.52;Aprobado;Idos, Manchas;Puntual;1;2;3;Puntual combinado;1;1;0;0;0;0;0.0;97.33;2
+815;1;2026-05-12;2026-05-12;2026-05;Jabón;Azul Marino;Por Kg;28.9;0.0;96.17;29.36;3.33;3.28;-0.05;-1.5;;0.46;Aprobado;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;96.17;6
+816;1;2026-05-12;2026-05-12;2026-05;Bahamas;Blanco;Por Kg;16.75;0.0;55.42;17.02;3.31;3.26;-0.05;-1.51;;0.27;Aprobado;Manchas, Sucio;Frecuente;1;2;4;Crítico;0;1;0;0;1;0;0.0;55.42;9
+817;2;2026-05-12;2026-05-12;2026-05;Bahamas;Blanco;Por Kg;18.1;0.0;56.2;18.3;3.1;3.07;-0.03;-0.97;;0.2;Aprobado;Idos, Manchas;Frecuente;1;2;4;Crítico;1;1;0;0;0;0;0.0;56.2;10
+818;3;2026-05-12;2026-05-12;2026-05;Bahamas;Blanco;Por Kg;18.25;0.0;57.02;18.48;5.56;3.09;-2.47;-44.42;;0.23;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;57.02;0
+819;4;2026-05-12;2026-05-12;2026-05;Bahamas;Blanco;Por Kg;6.0;0.0;18.3;6.04;3.05;3.03;-0.02;-0.66;;0.04;Aprobado;Manchas;Puntual;1;1;1;Puntual simple;0;1;0;0;0;0;0.0;18.3;1
+820;1;2026-05-12;2026-05-12;2026-05;Bahamas;Negro;Por Kg;18.25;0.0;59.5;18.6;3.26;3.2;-0.06;-1.84;;0.35;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.5;0
+821;2;2026-05-12;2026-05-12;2026-05;Bahamas;Negro;Por Kg;18.56;0.0;59.49;18.92;3.21;3.14;-0.07;-2.18;;0.36;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.49;0
+822;3;2026-05-12;2026-05-12;2026-05;Bahamas;Negro;Por Kg;18.7;0.0;59.76;19.08;3.2;3.13;-0.07;-2.19;;0.38;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;59.76;0
+823;4;2026-05-12;2026-05-12;2026-05;Bahamas;Negro;Por Kg;18.12;0.0;58.64;18.44;3.24;3.18;-0.06;-1.85;;0.32;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;58.64;0
+824;5;2026-05-12;2026-05-12;2026-05;Bahamas;Negro;Por Kg;6.25;0.0;20.09;6.36;3.21;3.16;-0.05;-1.56;;0.11;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;20.09;0
+825;1;2026-05-20;2026-05-20;2026-05;Texflex;Negro;Por Kg;15.26;0.0;47.32;15.7;3.1;3.1;0.0;0.0;;0.44;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;47.32;0
+826;2;2026-05-20;2026-05-20;2026-05;Texflex;Negro;Por Kg;15.42;0.0;47.77;15.84;3.1;3.11;0.01;0.32;;0.42;Aprobado;Ninguno;Ninguno;0;0;0;Sin defecto;0;0;0;0;0;0;0.0;47.77;0
+827;3;2026-05-20;2026-05-20;2026-05;Texflex;Negro;Por Kg;14.72;0.0;45.26;15.14;3.07;3.07;0.0;0.0;;0.42;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;45.26;0
+828;4;2026-05-20;2026-05-20;2026-05;Texflex;Negro;Por Kg;15.0;0.0;45.91;15.42;3.06;3.07;0.01;0.33;;0.42;Aprobado;Marcas de Agua;Puntual;1;1;1;Puntual simple;0;0;0;1;0;0;0.0;45.91;0
+829;1;2025-08-12;2025-08-12;2025-08;Novaktex Repel;Verde Militar;Por Metro;0.0;118.0;112.37;24.85;4.75;4.52;;;-5.63;;Aprobado con Desviación;Idos;Frecuente;1;1;2;Frecuente;1;0;0;0;0;0;0.0;112.37;0
