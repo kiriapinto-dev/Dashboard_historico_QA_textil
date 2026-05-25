@@ -1066,7 +1066,7 @@ def color_amort(val):
 ranking_styled = (
     ranking[cols_ranking]
     .style
-    .applymap(color_tasa_defecto, subset=['Tasa_Defectos_%'])
+    #.applymap(color_tasa_defecto, subset=['Tasa_Defectos_%'])
     .applymap(color_factor, subset=['Factor_%'])
     .applymap(color_amort, subset=['Factor_Amort_%'])
     .format({
