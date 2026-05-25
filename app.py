@@ -12,8 +12,178 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📊 Somos Cuadro - Control de Calidad Textil")
-st.markdown("Análisis de rendimiento, defectos y aprovechamiento de tela")
+
+# =========================
+# ESTILOS CSS GLOBALES
+# =========================
+ 
+st.markdown("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
+ 
+/* ── Base ── */
+
+html, body, [class*="css"] {
+    font-family: 'DM Sans', sans-serif;
+    background-color:#005192;
+    color: #1A1D23;
+}
+ 
+/* ── Ocultar decoración por defecto ── */
+#MainMenu, footer, header { visibility: hidden; }
+
+/* ── Background principal ── */
+.stApp {
+    background-color: #fff !important;
+}
+ 
+/* ── Sidebar ── */
+section[data-testid="stSidebar"] {
+    background-color: #97b6d3;
+    border-right: 1px solid black;
+}
+
+/* ── Sidebar siempre visible, sin botón de colapso ── */
+button[data-testid="baseButton-headerNoPadding"] {
+    display: none !important;
+    background-color:#97b6d3;
+}
+
+section[data-testid="stSidebar"] {
+    min-width: 15% !important;
+    max-width: 15% !important;
+    transform: none !important;
+    visibility: visible !important;
+}
+/* ── Header principal ── */
+.dashboard-header {
+    margin: -80px 0 0 0;
+    padding: -20px 0 1.5rem 0;
+    border-bottom: 1px solid #E2E5EC;
+    margin-bottom: 2rem;
+}
+.dashboard-header h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #1A1D23;
+    margin: 0 0 0.2rem 0;
+}
+.dashboard-header p {
+    font-size: 0.875rem;
+    color: #6B7280;
+    margin: 0;
+    font-weight: 400;
+}
+ 
+/* ── KPI Cards ── */
+.kpi-grid {
+    display: flex;
+    gap: 0.5rem;
+    padding:0;
+    margin: 0rem;
+}
+.kpi-card {
+    flex: 1;
+    background: #FFFFFF;
+    border: 1px solid #E2E5EC;
+    border-radius: 12px;
+    padding: 0.2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: default;
+    min-width: 0;
+}
+.kpi-card:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+    border-color: #C7D2FE;
+}
+.kpi-icon {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.kpi-label {
+    font-size: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9098A9;
+    margin-bottom: 0.4rem;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: clip;
+}
+.kpi-value {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1A1D23;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+    white-space: nowrap;
+}
+ 
+/* ── Subtítulos de sección ── */
+h2[data-testid="stHeadingWithActionElements"],
+.stSubheader {
+    font-size: 0.875rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.06em !important;
+    text-transform: uppercase !important;
+    color: #6B7280 !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+}
+ 
+/* ── Separador ── */
+hr {
+    border: none;
+    border-top: 1px solid #E2E5EC;
+    margin: 2rem 0;
+}
+ 
+/* ── Dataframe ── */
+div[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    border: 1px solid #E2E5EC;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+ 
+/* ── Info / Alert ── */
+div[data-testid="stAlert"] {
+    background: #F0F4FF;
+    border: 1px solid #C7D2FE;
+    border-radius: 10px;
+    color: #3730A3;
+    font-size: 0.875rem;
+}
+ 
+/* ── Charts ── */
+div[data-testid="stPlotlyChart"] {
+    background: #FFFFFF;
+    border: 1px solid #E2E5EC;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+ 
+ 
+</style>
+""", unsafe_allow_html=True)
+ 
+# =========================
+# HEADER PERSONALIZADO
+# =========================
+ 
+st.markdown("""
+<div class="dashboard-header">
+    <h1>Control de Calidad Textil</h1>
+    <p>Somos Cuadro · Análisis de rendimiento, defectos y aprovechamiento de tela</p>
+</div>
+""", unsafe_allow_html=True)
 
 # =========================
 # CARGA DE DATOS
@@ -36,231 +206,101 @@ df = cargar_datos()
 # =========================
 # SIDEBAR - FILTROS
 # =========================
-
+ 
 st.sidebar.header("🔎 Filtros")
-
-# Copia inicial
+ 
 df_filtrado = df.copy()
-
-# =========================
-# FILTRO FECHA RECEPCIÓN
-# =========================
-
-
-fechas_disponibles = sorted(
-    df_filtrado['Fecha_Recepción'].dt.date.dropna().unique()
-)
-
-# Agregar opción TODAS
+ 
+# FILTRO FECHA
+fechas_disponibles = sorted(df_filtrado['Fecha_Recepción'].dt.date.dropna().unique())
 opciones_fecha = ['Todas'] + list(fechas_disponibles)
-
-fecha_select = st.sidebar.selectbox(
-    "Fecha de recepción",
-    options=opciones_fecha
-)
-
-# Aplicar filtro solo si NO es Todas
+fecha_select = st.sidebar.selectbox("Fecha de recepción", options=opciones_fecha)
 if fecha_select != 'Todas':
-
-    df_filtrado = df_filtrado[
-        df_filtrado['Fecha_Recepción'].dt.date == fecha_select
-    ]
-
-# =========================
+    df_filtrado = df_filtrado[df_filtrado['Fecha_Recepción'].dt.date == fecha_select]
+ 
 # FILTRO TIPO DE TELA
-# =========================
-
-lista_telas = sorted(
-    df_filtrado['Tipo_de_tela'].dropna().unique()
-)
-
-tela_select = st.sidebar.multiselect(
-    "Tipo de tela",
-    options=lista_telas,
-    default=lista_telas
-)
-
-if tela_select:
-    df_filtrado = df_filtrado[
-        df_filtrado['Tipo_de_tela'].isin(tela_select)
-    ]
-
-# =========================
+lista_telas = sorted(df_filtrado['Tipo_de_tela'].dropna().unique())
+tela_select = st.sidebar.selectbox("Tipo de tela", options=['Todas'] + list(lista_telas))
+if tela_select != 'Todas':
+    df_filtrado = df_filtrado[df_filtrado['Tipo_de_tela'] == tela_select]
+ 
 # FILTRO COLOR
-# =========================
-
-lista_colores = sorted(
-    df_filtrado['Color'].dropna().unique()
-)
-
-color_select = st.sidebar.multiselect(
-    "Color",
-    options=lista_colores,
-    default=lista_colores
-)
-
-if color_select:
-    df_filtrado = df_filtrado[
-        df_filtrado['Color'].isin(color_select)
-    ]
-
-# =========================
+lista_colores = sorted(df_filtrado['Color'].dropna().unique())
+color_select = st.sidebar.selectbox("Color", options=['Todos'] + list(lista_colores))
+if color_select != 'Todos':
+    df_filtrado = df_filtrado[df_filtrado['Color'] == color_select]
+ 
 # FILTRO ESTATUS
-# =========================
-
 if 'Estatus' in df_filtrado.columns:
-
-    lista_estatus = sorted(
-        df_filtrado['Estatus'].dropna().unique()
-    )
-
-    estatus_select = st.sidebar.multiselect(
-        "Estatus",
-        options=lista_estatus,
-        default=lista_estatus
-    )
-
-    if estatus_select:
-        df_filtrado = df_filtrado[
-            df_filtrado['Estatus'].isin(estatus_select)
-        ]
-
-
-# =========================
-# FILTRO TIPO DE DEFECTO
-# =========================
-
+    lista_estatus = sorted(df_filtrado['Estatus'].dropna().unique())
+    estatus_select = st.sidebar.selectbox("Estatus", options=['Todos'] + list(lista_estatus))
+    if estatus_select != 'Todos':
+        df_filtrado = df_filtrado[df_filtrado['Estatus'] == estatus_select]
+ 
+# FILTRO TIPO DEFECTO
 if 'Tipo_Defecto' in df_filtrado.columns:
-
-    lista_defectos = sorted(
-        df_filtrado['Tipo_Defecto'].dropna().unique()
-    )
-
-    opciones_defecto = ['Todos'] + list(lista_defectos)
-
-    defecto_select = st.sidebar.selectbox(
-        "Tipo de defecto",
-        options=opciones_defecto
-    )
-
+    lista_defectos = sorted(df_filtrado['Tipo_Defecto'].dropna().unique())
+    defecto_select = st.sidebar.selectbox("Tipo de defecto", options=['Todos'] + list(lista_defectos))
     if defecto_select != 'Todos':
-
-        df_filtrado = df_filtrado[
-            df_filtrado['Tipo_Defecto'] == defecto_select
-        ]
-        
+        df_filtrado = df_filtrado[df_filtrado['Tipo_Defecto'] == defecto_select]
 # =========================
 # KPIs PRINCIPALES
 # =========================
-
+ 
 st.subheader("📌 Indicadores Principales")
-
-# =====================================
-# CÁLCULOS KPI
-# =====================================
-
+ 
 total_rollos = len(df_filtrado)
-
 rollos_defecto = df_filtrado['Tiene_Defecto'].sum()
-
-tasa_defectos = (
-    rollos_defecto / total_rollos * 100
-    if total_rollos > 0 else 0
-)
-
-# =====================================
-# TASA RECHAZO / APROBACIÓN
-# =====================================
-
+tasa_defectos = (rollos_defecto / total_rollos * 100 if total_rollos > 0 else 0)
+ 
 if 'Estatus' in df_filtrado.columns:
-
-    rollos_rechazados = (
-        df_filtrado['Estatus']
-        .astype(str)
-        .str.upper()
-        .str.contains('RECHAZ')
-        .sum()
-    )
-
-    rollos_aprobados = (
-        df_filtrado['Estatus']
-        .astype(str)
-        .str.upper()
-        .str.contains('APROB')
-        .sum()
-    )
-
+    rollos_rechazados = df_filtrado['Estatus'].astype(str).str.upper().str.contains('RECHAZ').sum()
+    rollos_aprobados = df_filtrado['Estatus'].astype(str).str.upper().str.contains('APROB').sum()
 else:
-
     rollos_rechazados = 0
     rollos_aprobados = 0
-
-tasa_rechazo = (
-    rollos_rechazados / total_rollos * 100
-    if total_rollos > 0 else 0
-)
-
-tasa_aprobacion = (
-    rollos_aprobados / total_rollos * 100
-    if total_rollos > 0 else 0
-)
-
-# =====================================
-# DELTAS ACUMULADOS
-# =====================================
-
+ 
+tasa_rechazo = (rollos_rechazados / total_rollos * 100 if total_rollos > 0 else 0)
+tasa_aprobacion = (rollos_aprobados / total_rollos * 100 if total_rollos > 0 else 0)
 delta_metros_total = df_filtrado['Delta_Metros'].sum()
-
 delta_kg_total = df_filtrado['Delta_Kg'].sum()
-
-# =====================================
-# TARJETAS KPI
-# =====================================
-
-col1, col2, col3, col4, col5, col6 = st.columns(6)
-
-with col1:
-
-    st.metric(
-        "🎯 Rollos Auditados",
-        f"{total_rollos:,}"
-    )
-
-with col2:
-
-    st.metric(
-        "⚠️ Tasa de Defectos",
-        f"{tasa_defectos:.2f}%"
-    )
-
-with col3:
-
-    st.metric(
-        "❌ Tasa de Rechazo",
-        f"{tasa_rechazo:.2f}%"
-    )
-
-with col4:
-
-    st.metric(
-        "✅ Tasa de Aprobación",
-        f"{tasa_aprobacion:.2f}%"
-    )
-
-with col5:
-
-    st.metric(
-        "📏 Δ Histórico Metros Acumulados",
-        f"{delta_metros_total:,.2f} m"
-    )
-
-with col6:
-
-    st.metric(
-        "⚖️ Δ Histórico Kg Excedentes",
-        f"{delta_kg_total:,.2f} Kg"
-    )
-
+ 
+kpi_html = f"""
+<div  class="kpi-grid">
+    <div  class="kpi-card">
+        <span class="kpi-icon">🎯</span>
+        <div class="kpi-label">Rollos Auditados</div>
+        <div class="kpi-value">{total_rollos:,}</div>
+    </div>
+    <div class="kpi-card">
+        <span class="kpi-icon">⚠️</span>
+        <div class="kpi-label">Tasa de Defectos</div>
+        <div class="kpi-value">{tasa_defectos:.2f}%</div>
+    </div>
+    <div class="kpi-card">
+        <span class="kpi-icon">❌</span>
+        <div class="kpi-label">Tasa de Rechazo</div>
+        <div class="kpi-value">{tasa_rechazo:.2f}%</div>
+    </div>
+    <div class="kpi-card">
+        <span class="kpi-icon">✅</span>
+        <div class="kpi-label">Tasa de Aprobación</div>
+        <div class="kpi-value">{tasa_aprobacion:.2f}%</div>
+    </div>
+    <div class="kpi-card">
+        <span class="kpi-icon">📏</span>
+        <div class="kpi-label">Δ Histórico Metros</div>
+        <div class="kpi-value">{delta_metros_total:,.2f} m</div>
+    </div>
+    <div class="kpi-card">
+        <span class="kpi-icon">⚖️</span>
+        <div class="kpi-label">Δ Histórico Kg</div>
+        <div class="kpi-value">{delta_kg_total:,.2f} Kg</div>
+    </div>
+</div>
+"""
+st.markdown(kpi_html, unsafe_allow_html=True)
+ 
 st.divider()
 
 # =====================================
