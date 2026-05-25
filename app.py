@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
-
+st.config.set_option("theme.base", "light")
 
 # =========================
 # ESTILOS CSS GLOBALES
